@@ -1,4 +1,4 @@
-body{
+/* body{
     overflow-x:hidden;
     margin:1rem;
     font-family:"poppins";
@@ -47,7 +47,7 @@ body{
     width:20px; 
     height:20px;
     margin-right:2%;
-}
+}*/
 .employee{
     display:flex;
     padding-top:2%;
@@ -64,7 +64,7 @@ body{
     height:18px;
     margin-right:2%;
 }
-.left-menu-roles{
+/*.left-menu-roles{
     margin-top:10%;
     margin-left:10%;
     font-size:80%;
@@ -75,7 +75,7 @@ body{
     margin-left:6%;
     padding-top:5%;
     color:gray;
-}
+}*/
 .roles{
     display:flex;
     background-color: rgb(246, 217, 224);
@@ -83,7 +83,7 @@ body{
 .roles span{
     margin-top:3%;
     margin-left:1.5%;
-    margin-right:54%;
+    width:75%;
     margin-bottom:3%;
     font-size:14px;
     color:red;
@@ -97,14 +97,14 @@ body{
     margin-right:2%;
     justify-content:flex-end;
 }
-.userroles{
+/*.userroles{
     display:flex;
 }
 .userroles span{
     margin-top:3%;
     margin-left:1.5%;
-    margin-right:26%;
     font-size:14px;
+    width:75%;
 }
 .userroles img{
     width:20px; 
@@ -151,7 +151,7 @@ body{
 }
 .search-wrapper{
     display:flex;
-    width:55%;
+    width:45%;
     padding-top:1%;
     color:lightgray;
     font-size:12px;
@@ -183,7 +183,7 @@ body{
     height:60%;
 }
 .profile-icons{
-    width:45%;
+    width:55%;
     display:flex;
     padding-right:-200px;
     position:relative;
@@ -191,7 +191,6 @@ body{
 }
 .profile-icons img{
     width:8%;
-    justify-content:flex-end;
 }
 #profile{
     margin-top:2%;
@@ -212,7 +211,7 @@ body{
 #downarrow{
     width:30px;
     height:30px;
-}
+} */
 .content-wrapper{
     width: 100%;
     display:flex;
@@ -303,7 +302,7 @@ body{
     border-radius:10%;
     border:none;
 }
-.rightmost{
+/* .rightmost{
     text-align:right;
 }
 .employee-icons{
@@ -353,16 +352,113 @@ th,td{
     box-shadow:0.1px 0.1px 0 1px rgb(227, 227, 227);
     border-radius:3%;
     color:gray;
-}
+} */
 .view{
-    margin-left:20px;
+    margin-left:30px;
     display:flex;
-    gap:0.5%;
+    gap:0%;
+    width: 55%;
 }
 .view img{
     width:18px;
     margin-left:2px;
+
 }
+/* .views{
+    display:flex;
+    gap:0.5%;
+    margin-top:8px;
+}
+.views img{
+    width:18px;
+    margin: 0.5px 2px;
+} 
+.end{
+    justify-content:flex-end;
+} */
+/* .individual-employee div span{
+    padding-top:-10rem;
+}
+.individual-employee div img{
+    margin-top:2%;
+} */
+
+
+
+.role-details{
+    width: 100%;
+    display: flex;
+}
+
+.details-card{
+    width:33%;
+    display: block;
+    margin: 1rem 0.3rem 0rem 0.3rem;
+    border: 1px solid rgb(176, 175, 175);
+    border-radius:4px;
+    background-color: white;
+    font-size:12px;
+    padding-bottom:1rem;
+}
+
+.line{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0.4rem;
+}
+
+#line{
+    margin-top: 1rem;
+}
+
+.icon{
+    margin-left:0.5rem;
+}
+
+.icon img{
+    width: 1rem;
+    height: 1rem;
+}
+
+.right-text{
+    text-align: right;
+    padding:0rem 0.7rem 0rem 0.5rem;
+}
+
+.right-text span,img{
+    cursor: pointer;
+}
+
+.edit-symbol{
+    width: 1.5rem;
+    height: 1.5rem;
+    cursor: pointer;
+}
+
+.many-users{
+    text-align:right;
+}
+.many-users img{
+    width:10%;
+    height:10%;
+}
+.many-users .icon-overlap{
+    margin-left:-12%;
+    margin-right:5%;
+}
+
+.right-text img{
+    margin-top:0.7rem;
+}
+.icon span{
+    padding-top:2rem;
+}
+.icon img{
+    margin-top:2%;
+}
+
+
 
 
 
@@ -371,6 +467,12 @@ th,td{
     .main-dashboard{
         width:100%;
         flex-direction:column;
+    }
+    .tezo-logo{
+        width:50%;
+    }
+    .handle{
+        width:5%;
     }
     .left-container{
         width:100%;

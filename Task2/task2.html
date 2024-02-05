@@ -4,6 +4,7 @@
         <title>Task2</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="styles.css">
         <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
     </head>
     <body>
@@ -142,13 +143,14 @@
                         </button>
                     </div>
                 </div>
-                <table id="main-table">
+                <div style="overflow:auto;">
+                <table id="main-table" style="width:100%;">
                     <tr id="icons">
                         <td class="table-space">
                             <img src="assets/images/arrow-turn left -down.png" alt="arrow">
                         </td>
                         <td colspan="5">
-                            <div id="button">Delete</div>
+                            <button id="buttonid">Delete</button>
                         </td>
                         <td colspan="4">
                             <img src="assets/images/table-add.png" alt="table" class="table">
@@ -158,14 +160,14 @@
                         <td class="table-space" style="width:5%;">
                             <input type="checkbox">
                         </td>
-                        <th style=width:20% colspan="2">USER<img src="assets/images/arrow3.png" alt="arrow" ></th>
-                        <th style="width:10%;">LOCATION <img src="assets/images/arrow3.png" alt="arrow" ></th>
-                        <th style="width:10%;">DEPARTMENT <img src="assets/images/arrow3.png" alt="arrow" ></th>
-                        <th style="width:15%;">ROLE <img src="assets/images/arrow3.png" alt="arrow" ></th>
-                        <th style="width:9%;">EMPNO <img src="assets/images/arrow3.png" alt="arrow"></th>
-                        <th style="width:9%;">STATUS <img src="assets/images/arrow3.png" alt="arrow" ></th>
-                        <th style="width:10%;">JOIN DT <img src="assets/images/arrow3.png" alt="arrow" ></th>
-                        <th style="width:4%;" class="extra">...</th>
+                        <th colspan="2">USER <img src="assets/images/arrow3.png" alt="arrow" ></th>
+                        <th >LOCATION<img src="assets/images/arrow3.png" alt="arrow" ></th>
+                        <th >DEPARTMENT <img src="assets/images/arrow3.png" alt="arrow" ></th>
+                        <th >ROLE <img src="assets/images/arrow3.png" alt="arrow" ></th>
+                        <th >EMPNO <img src="assets/images/arrow3.png" alt="arrow"></th>
+                        <th >STATUS <img src="assets/images/arrow3.png" alt="arrow" ></th>
+                        <th >JOIN DT <img src="assets/images/arrow3.png" alt="arrow" ></th>
+                        <th  class="extra">...</th>
                     </tr>
                     <tr>
                         <td class="table-space">
@@ -328,6 +330,7 @@
                         <td class="extra">...</td>
                     </tr>
                 </table>
+            </div>
             </div>
         </section>
     </body>

@@ -1,0 +1,178 @@
+body{
+    overflow-x:hidden;
+    margin:1rem;
+    font-family:"poppins";
+}
+.main-dashboard{
+    width:100%;
+    display:flex;
+    gap:1.5%;
+}
+.left-container{
+    width:18%;
+}
+.bottom-menu{
+    margin-left:1%;
+    position:relative;
+    top:46%;
+}
+.left-menu{
+    display:flex;
+}
+.tezo-logo{
+    margin:5% 0 0 5%;
+    width:90%;
+}
+.handle{
+    margin-top:5%;
+    width:10%;
+}
+.left-menu-all{
+    margin-top:18%;
+    margin-left:10%;
+    font-size:80%;
+    color:rgb(210, 210, 210);
+}
+.list-in-all{
+    margin-top:6%;
+    margin-left:6%;
+    padding-top:5%;
+    color:gray;
+}
+.dashboard{
+    display:flex;
+}
+.dashboard span{
+    margin-top:0.2%;
+    margin-left:1.5%;
+    margin-right:45%;
+    font-size:14px;
+}
+.dashboard img{
+    width:20px; 
+    height:20px;
+    justify-content:flex-end;
+}
+.left-menu-roles{
+    margin-top:10%;
+    margin-left:10%;
+    font-size:80%;
+    color:rgb(210, 210, 210);
+}
+.list-in-roles{
+    margin-top:5%;
+    margin-left:6%;
+    padding-top:5%;
+    color:gray;
+}
+.userroles{
+    display:flex;
+    margin-top:2%;
+}
+.userroles span{
+    margin-top:0.2%;
+    margin-left:1.5%;
+    font-size:14px;
+    width:75%;
+}
+.userroles img{
+    width:20px; 
+    height:20px;
+    justify-content:flex-end;
+}
+.bottom-install{
+    background-color: rgb(248, 237, 240);
+    padding:5%;
+    border-radius:5%;
+    margin-top:14%;
+    font-size:13px;
+}
+.bottom-install span{
+    color:red;
+}
+.bottom-install p{
+    color:rgb(188, 186, 186);
+}
+.dismiss{
+    padding:5%;
+    border:none;
+    border-radius:10%;
+    color:red;
+    background-color:rgb(248, 199, 208);
+}
+.accept{
+    padding:5%;
+    border:none;
+    border-radius:10%;
+    color:white;
+    background-color:red;
+}
+.right-container{
+    width:82%;
+}
+.search-wrapper{
+    display:flex;
+    width:50%;
+    padding-top:1%;
+    color:lightgray;
+}
+.search-bar{
+    padding:0.5%;
+    background-color:white;
+    display:flex;
+    border:none;
+    border-radius:2%;
+    box-shadow: 0.1px 0.1px 0px 1px rgb(236, 234, 234);
+}
+.search-bar img{
+    width: 4%;
+    height:60%;
+    margin-top:1%;
+}
+.search-bar input{
+    border:none;
+    background-color:white;
+}
+.search-bar input::placeholder{
+    color:lightgray;
+}
+#search-icon{
+    margin-left:3%;
+    width:4%;
+    height:60%;
+}
+.profile-icons{
+    width:50%;
+    display:flex;
+    padding-right:-200px;
+    position:relative;
+    left:7rem;
+    flex-wrap:wrap-reverse;
+}
+.profile-icons img{
+    width:7%;
+    height:90%;
+}
+#profile{
+    margin-top:2%;
+    margin-right:2%;
+    margin-bottom:2%;
+    width:30px; 
+    height:30px;
+    padding-left:2%;
+}
+.adminname{
+    text-align: justify;
+    flex-wrap:wrap;
+}
+.adminname pre{
+    margin:0%;
+}
+.adminname small{
+    padding-top:none;
+}
+#downarrow{
+    margin:2% 0%;
+    width:30px;
+    height:30px;
+}

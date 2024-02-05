@@ -1,4 +1,4 @@
-body{
+/* body{
     overflow-x:hidden;
     margin:1rem;
     font-family:"poppins";
@@ -47,7 +47,7 @@ body{
     width:20px; 
     height:20px;
     margin-right:2%;
-}
+} */
 .employee{
     display:flex;
     padding-top:2%;
@@ -64,7 +64,7 @@ body{
     height:18px;
     margin-right:2%;
 }
-.left-menu-roles{
+/* .left-menu-roles{
     margin-top:10%;
     margin-left:10%;
     font-size:80%;
@@ -75,7 +75,7 @@ body{
     margin-left:6%;
     padding-top:5%;
     color:gray;
-}
+} */
 .roles{
     display:flex;
     background-color: rgb(246, 217, 224);
@@ -83,7 +83,7 @@ body{
 .roles span{
     margin-top:3%;
     margin-left:1.5%;
-    margin-right:54%;
+    width:75%;
     margin-bottom:3%;
     font-size:14px;
     color:red;
@@ -97,13 +97,13 @@ body{
     margin-right:2%;
     justify-content:flex-end;
 }
-.userroles{
+/* .userroles{
     display:flex;
 }
 .userroles span{
     margin-top:3%;
     margin-left:1.5%;
-    margin-right:26%;
+    width:75%;
     font-size:14px;
 }
 .userroles img{
@@ -211,7 +211,7 @@ body{
 #downarrow{
     width:30px;
     height:30px;
-}
+} */
 .content-title{
     display:flex;
 }
@@ -309,6 +309,12 @@ h4 img{
     .main-dashboard{
         width:100%;
         flex-direction:column;
+    }
+    .tezo-logo{
+        width:50%;
+    }
+    .handle{
+        width:5%;
     }
     .left-container{
         width:100%;
