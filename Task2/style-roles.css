@@ -426,14 +426,14 @@ th,td{
     padding:0rem 0.7rem 0rem 0.5rem;
 }
 
-.right-text span,img{
+/* .right-text span,img{
     cursor: pointer;
-}
+} */
 
 .edit-symbol{
     width: 1.5rem;
     height: 1.5rem;
-    cursor: pointer;
+    /* cursor: pointer; */
 }
 
 .many-users{
@@ -517,17 +517,17 @@ th,td{
         margin-left:10%;
         margin-right:10%;
     }
-    .top-row{
+    .role-details{
         width:100%;
         flex-direction: column;
         align-items:center;
         justify-content: center;
     }
-    .individual-employee{
+    .details-card{
         width:60%;
         height:100%;
     }
-    .employee-details{
+    .details-wrapper{
         margin-top:50px;
     }
 }
