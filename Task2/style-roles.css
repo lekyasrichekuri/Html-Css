@@ -531,3 +531,16 @@ th,td{
         margin-top:50px;
     }
 }
+
+@media screen and (max-width:1024px)
+{
+    .profile-icons{
+        left:5rem;
+    }
+}
+@media screen and (max-width:768px)
+{
+    .profile-icons{
+        left:2rem;
+    }
+}
