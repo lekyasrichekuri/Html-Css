@@ -1,0 +1,599 @@
+body{
+    overflow-x:hidden;
+    margin:1rem;
+    font-family:"poppins";
+}
+.main-dashboard{
+    width:100%;
+    display:flex;
+    gap:1.5%;
+}
+.left-container{
+    width:18%;
+}
+.bottom-menu{
+    margin-left:1%;
+    position:relative;
+    top:46%;
+}
+.left-menu{
+    display:flex;
+}
+.tezo-logo{
+    margin:5% 0 0 5%;
+    width:90%;
+}
+.handle{
+    margin-top:5%;
+    width:10%;
+}
+.left-menu-all{
+    margin-top:18%;
+    margin-left:10%;
+    font-size:80%;
+    color:rgb(210, 210, 210);
+}
+.list-in-all{
+    margin-top:6%;
+    margin-left:6%;
+    padding-top:5%;
+    color:gray;
+}
+.dashboard{
+    display:flex;
+}
+.dashboard span{
+    margin-top:0.2%;
+    margin-left:1.5%;
+    margin-right:45%;
+    font-size:14px;
+}
+.dashboard img{
+    width:20px; 
+    height:20px;
+    justify-content:flex-end;
+}
+.roles{
+    display:flex;
+}
+.roles span{
+    margin-top:0.2%;
+    margin-left:1.5%;
+    margin-right:55%;
+    font-size:14px;
+}
+.roles img{
+    width:20px; 
+    height:20px;
+    justify-content:flex-end;
+}
+.employee{
+    display:flex;
+    background-color: rgb(246, 217, 224);
+    padding-top:2%;
+    border-radius: 4%;;
+    margin-top:2%;
+}
+.employee span{
+    margin-top:0.2%;
+    margin-left:1.5%;
+    margin-right:45%;
+    color:red;
+    font-size:14px;
+}
+.employee img{
+    width:18px;
+    height:18px;
+    margin-top:3px;
+    margin-right:2%;
+}
+.list-in-all li{
+    padding-bottom:5%;
+}
+.left-menu-departments{
+    margin-top:12%;
+    margin-left:10%;
+    font-size:80%;
+    color:rgb(210, 210, 210);
+}
+.list-in-departments{
+    color:gray;
+}
+.list-in-departments ul{
+    padding-top:5%;
+    padding-left:0;
+}
+/* .list-in-departments li{
+    padding-bottom:15%;
+} */
+.IT{
+    display:flex;
+    padding-left:27px;
+}
+.IT li{
+    width:85%;
+}
+.IT span{
+    width:15%;
+    background-color: rgb(246, 217, 224);
+    color:red;
+    margin-bottom:15%;
+    text-align:center;
+    border-radius:40%;
+}
+.ui-ux{
+    display:flex;
+    background-color: rgb(245, 241, 241);
+    padding-left:27px;
+}
+.ui-ux li{
+    
+    width:85%;
+}
+.ui-ux span{
+    width:15%;
+    background-color: rgb(246, 217, 224);
+    color:red;
+    margin-bottom:15%;
+    text-align:center;
+    border-radius:40%;
+}
+.pe{
+    display:flex;
+    padding-left:27px;
+}
+.pe li{
+    width:85%;
+}
+.pe span{
+    width:15%;
+    background-color: rgb(246, 217, 224);
+    color:red;
+    margin-bottom:15%;
+    text-align:center;
+    border-radius:40%;
+}
+.humanresources{
+    display:flex;
+    padding-left:27px;
+}
+.humanresources li{
+    width:85%;
+}
+.humanresources span{
+    width:15%;
+    background-color: rgb(246, 217, 224);
+    color:red;
+    margin-bottom:15%;
+    text-align:center;
+    border-radius:40%;
+}
+.sales{
+    display:flex;
+    padding-left:27px;
+}
+.sales li{
+    width:85%;
+}
+.sales span{
+    width:15%;
+    background-color: rgb(246, 217, 224);
+    color:red;
+    margin-bottom:15%;
+    text-align:center;
+    border-radius:40%;
+}
+.left-menu-roles{
+    margin-top:10%;
+    margin-left:10%;
+    font-size:80%;
+    color:rgb(210, 210, 210);
+}
+.list-in-roles{
+    margin-top:5%;
+    margin-left:6%;
+    padding-top:5%;
+    color:gray;
+}
+.userroles{
+    display:flex;
+    margin-top:2%;
+}
+.userroles span{
+    margin-top:0.2%;
+    margin-left:1.5%;
+    margin-right:29%;
+    font-size:14px;
+}
+.userroles img{
+    width:20px; 
+    height:20px;
+    justify-content:flex-end;
+}
+.bottom-install{
+    background-color: rgb(248, 237, 240);
+    padding:5%;
+    border-radius:5%;
+    margin-top:14%;
+    font-size:13px;
+}
+.bottom-install span{
+    color:red;
+}
+.bottom-install p{
+    color:rgb(188, 186, 186);
+}
+.dismiss{
+    padding:5%;
+    border:none;
+    border-radius:10%;
+    color:red;
+    background-color:rgb(248, 199, 208);
+}
+.accept{
+    padding:5%;
+    border:none;
+    border-radius:10%;
+    color:white;
+    background-color:red;
+}
+.right-container{
+    width:82%;
+}
+.search-wrapper{
+    display:flex;
+    width:55%;
+    padding-top:1%;
+    color:lightgray;
+    font-size:12px;
+}
+.search-bar{
+    width:99%;
+    padding:0.5%;
+    background-color:white;
+    display:flex;
+    border:none;
+    border-radius:2%;
+    box-shadow: 0.1px 0.1px 0px 1px rgb(236, 234, 234);
+}
+.search-bar img{
+    width: 7%;
+    height:80%;
+    margin-top:1%;
+}
+.search-bar input{
+    border:none;
+    background-color:white;
+}
+.search-bar input::placeholder{
+    color:lightgray;
+}
+#search-icon{
+    margin-left:3%;
+    width:4%;
+    height:60%;
+}
+.profile-icons{
+    width:45%;
+    display:flex;
+    padding-right:-200px;
+    position:relative;
+    left:7rem;
+}
+.profile-icons img{
+    width:8%;
+}
+#profile{
+    margin-top:2%;
+    margin-right:2%;
+    width:30px; 
+    height:30px;
+    padding-left:2%;
+}
+.adminname{
+    text-align: justify;
+}
+.adminname pre{
+    margin:0%;
+}
+.adminname small{
+    padding-top:none;
+}
+#downarrow{
+    width:30px;
+    height:30px;
+}
+.content-wrapper{
+    width: 100%;
+    display:flex;
+}
+.left-content{
+    width:70%;
+}
+.left-content h3{
+    margin-top:5%;
+    color:gray;
+    margin-bottom:1%;
+}
+.left-content small{
+    color:lightgray;
+}
+.right-content{
+    width:30%;
+    margin-top:4%;
+    display:flex;
+    justify-content: flex-end;
+}
+.export{
+    width:40%;
+    height:70%;
+    background-color: white;
+    color: rgb(186 183 183);
+    border-radius: 8%;
+    margin-right: 18px;
+    border: 1px solid rgb(152 147 147);
+    font-size: 12px;
+}
+.export img{
+    width:17px;
+    height:15px;
+    margin-right:5px;
+}
+.export span{
+    padding-bottom:1%;
+    color:gray;
+}
+.add-employee{
+    width:50%;
+    height:70%;
+    background-color: rgb(244, 86, 86);
+    border:1px solid rgb(247, 137, 137);
+    color:white;
+    border-radius:8%;
+    font-size:12px;
+}
+.add-employee img{
+    width:17px;
+    height:15px;
+    margin-right:5px;
+}
+
+.index{
+    display:flex;
+    gap:0.8%;
+}
+.vector{
+    margin-top:4%;
+}
+.index-count{
+    margin-top:3%;
+    gap:2%;
+}
+.index-count button{
+    border:none;
+    background-color: rgb(237, 234, 234);
+    color:rgb(151, 151, 151);
+    padding: 10px 10.4px;
+    border-radius:10%;
+}
+#button-c{
+    background-color: red;
+    color:white;
+}
+.index-count button:hover{
+    background-color:red;
+    color:white;
+}
+.Filter div{
+    border-color:rgb(240, 59, 59);
+}
+.vectors{
+    margin-top:1%;
+    width:2%;
+    height:50%;
+}
+.Filter{
+    background-color: rgb(250, 240, 243);
+    margin-top:2%;
+    display:flex;
+    width:98%;
+    padding:1%;
+    border-color:rgb(240, 59, 59);
+    box-shadow: 0.1px 0.1px 0px 1px rgb(248, 133, 133);
+    border-radius:1%;
+}
+.left-filter{
+    width:85%;
+    display:flex;
+    gap:2%;
+}
+.left-filter span{
+    color:red;
+    margin-top:0.5%;
+}
+.left-filter select{
+    background-color: white;
+    color:rgb(84, 84, 84);
+    border-color:rgb(252, 95, 95);
+    border-radius:5%;
+    padding:0%;
+}
+.right-filter{
+    width:15%;
+    display:flex;
+    gap:10%;
+}
+.right-filter div{
+    border-color:red;
+}
+.reset{
+    background-color:white;
+    color:red;
+    border:1px solid red;
+    padding:5% 10%;
+    border-radius:10%;
+}
+.apply{
+    background-color:red;
+    color:white;
+    padding:5% 10%;
+    border-radius:10%;
+    border:none;
+}
+.main-employees-data{
+    margin-top:3%;
+    box-shadow:1px 1px 1px 1px lightgray;
+    border-radius:10px;
+}
+.table{
+    margin-left:85%;
+}
+table{
+    border-collapse:collapse;
+    
+}
+.topline hr{
+    height: 1px;
+    border: 0;
+    background: rgb(250, 217, 217);
+}
+#main-table{
+    margin-top:2%;
+    box-shadow:1px 1px 2px 1px lightgray;
+    border-radius:10px;
+    /* border-spacing:0 15px; */
+    margin-bottom:3%;
+    overflow:scroll;
+    height:10%;
+}
+td{
+    padding:0%;
+    font-size:12px;
+    font-weight:bold;
+}
+th{
+    text-align:left;
+    color:gray;
+    font-weight:bold;
+    font-size:12px;
+}
+th img{
+    width:8px;
+    height:8px;
+}
+table button{
+    border:none;
+    background-color:rgb(227, 249, 227);
+    color:rgb(125, 244, 125);
+    border-radius:10%;
+}
+table tr{
+    font-size:10px;
+}
+#button{
+    width:6%;
+    padding:1% 1.5%;
+    border-radius:10%;
+    background-color:rgb(252, 201, 201);
+    color:white;
+    margin-bottom:1%;
+    margin-top:1%;
+}
+td a{
+    text-decoration:none;
+}
+#table-headings{
+    background-color: rgb(252, 248, 248);;
+}
+.table-space{
+    padding-left:1%;
+}
+.table-space img{
+    width:20px;
+    height:20px;
+}
+#row-color{
+    background-color:rgb(253, 244, 253);
+}
+table tr{
+    margin:2% 0;
+    border-bottom:1px solid rgb(205, 203, 203);
+}
+table tr:hover{
+    background-color:rgb(253, 244, 253);
+}
+th,td{
+    padding:5px;
+}
+table tr:last-child{
+    border-bottom:none;
+}
+.extra{
+    font-size: 22px;
+}
+
+
+
+
+
+@media screen and (max-width:760px){
+    .main-dashboard{
+        width:100%;
+        flex-direction:column;
+    }
+    .tezo-logo{
+        width:50%;
+    }
+    .handle{
+        width:5%;
+    }
+    .left-container{
+        width:100%;
+        flex-direction:column;
+    }
+    .left-menu-all{
+        margin-top:5%;
+    }
+    .list-in-all{
+        margin-top:0%;
+    }
+    .left-menu-roles{
+        margin-top:5%;
+    }
+    .list-in-roles{
+        margin-top:0%;
+    }
+    .left-menu-all, .list-in-all, .left-menu-roles, .list-in-roles{
+        margin-left:20%;
+    }
+    .roles p{
+        margin-right:12%;
+    }
+    .userroles p{
+        margin-right:5%;
+    }
+    .employee{
+        margin-right:50%;
+    }
+    .bottom-menu{
+        margin-left:20%;
+        margin-right:40%;
+    }
+    .search-bar,.content-wrapper, .index, .Filter{
+        margin-left:10%;
+    }
+    .profile-icons{
+        left:-5rem;
+    }
+    table{
+        margin-left:10%;
+        margin-right:-6rem;
+    }
+    .right-filter{
+        width:50%;
+    }
+    #button{
+        width:10%;
+    }
+    
+}

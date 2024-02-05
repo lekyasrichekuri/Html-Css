@@ -1,0 +1,431 @@
+body{
+    overflow-x:hidden;
+    margin:1rem;
+    font-family:"poppins";
+}
+.main-dashboard{
+    width:100%;
+    display:flex;
+    gap:1.5%;
+}
+.left-container{
+    width:18%;
+}
+.left-menu{
+    display:flex;
+}
+.tezo-logo{
+    margin:5% 0 0 5%;
+    width:90%;
+}
+.handle{
+    margin-top:5%;
+    width:10%;
+}
+.left-menu-all{
+    margin-top:18%;
+    margin-left:10%;
+    font-size:80%;
+    color:rgb(210, 210, 210);
+}
+.list-in-all{
+    margin-top:6%;
+    margin-left:6%;
+    padding-top:5%;
+    color:gray;
+}
+.dashboard{
+    display:flex;
+}
+.dashboard span{
+    margin-top:0.2%;
+    margin-left:1.5%;
+    margin-right:45%;
+    font-size:14px;
+}
+.dashboard img{
+    width:20px; 
+    height:20px;
+    margin-right:2%;
+}
+.employee{
+    display:flex;
+    padding-top:2%;
+    border-radius: 10%;;
+}
+.employee span{
+    margin-top:0.2%;
+    margin-left:1.5%;
+    margin-right:45%;
+    font-size:14px;
+}
+.employee img{
+    width:18px;
+    height:18px;
+    margin-right:2%;
+}
+.left-menu-roles{
+    margin-top:10%;
+    margin-left:10%;
+    font-size:80%;
+    color:rgb(210, 210, 210);
+}
+.list-in-roles{
+    margin-top:5%;
+    margin-left:6%;
+    padding-top:5%;
+    color:gray;
+}
+.roles{
+    display:flex;
+    background-color: rgb(246, 217, 224);
+}
+.roles span{
+    margin-top:3%;
+    margin-left:1.5%;
+    margin-right:54%;
+    margin-bottom:3%;
+    font-size:14px;
+    color:red;
+    border-radius:2%;
+}
+.roles img{
+    width:20px; 
+    height:20px;
+    margin-top:6px;
+    margin-left:3px;
+    margin-right:2%;
+    justify-content:flex-end;
+}
+.userroles{
+    display:flex;
+}
+.userroles span{
+    margin-top:3%;
+    margin-left:1.5%;
+    margin-right:26%;
+    font-size:14px;
+}
+.userroles img{
+    width:20px; 
+    height:20px;
+    margin-top:6px;
+    margin-left:3px;
+    margin-right:2%;
+    justify-content:flex-end;
+}
+.bottom-menu{
+    margin-left:1%;
+    position:relative;
+    top:45%;
+}
+.bottom-install{
+    background-color: rgb(248, 237, 240);
+    padding:5%;
+    border-radius:5%;
+    margin-top:14%;
+    font-size:13px;
+}
+.bottom-install span{
+    color:red;
+}
+.bottom-install p{
+    color:rgb(188, 186, 186);
+}
+.dismiss{
+    padding:5%;
+    border:none;
+    border-radius:10%;
+    color:red;
+    background-color:rgb(248, 199, 208);
+}
+.accept{
+    padding:5%;
+    border:none;
+    border-radius:10%;
+    color:white;
+    background-color:red;
+}
+.right-container{
+    width:82%;
+}
+.search-wrapper{
+    display:flex;
+    width:55%;
+    padding-top:1%;
+    color:lightgray;
+    font-size:12px;
+}
+.search-bar{
+    width:99%;
+    padding:0.5%;
+    background-color:white;
+    display:flex;
+    border:none;
+    border-radius:2%;
+    box-shadow: 0.1px 0.1px 0px 1px rgb(236, 234, 234);
+}
+.search-bar img{
+    width: 7%;
+    height:80%;
+    margin-top:1%;
+}
+.search-bar input{
+    border:none;
+    background-color:white;
+}
+.search-bar input::placeholder{
+    color:lightgray;
+}
+#search-icon{
+    margin-left:3%;
+    width:4%;
+    height:60%;
+}
+.profile-icons{
+    width:45%;
+    display:flex;
+    padding-right:-200px;
+    position:relative;
+    left:7rem;
+}
+.profile-icons img{
+    width:8%;
+    justify-content:flex-end;
+}
+#profile{
+    margin-top:2%;
+    margin-right:2%;
+    width:30px; 
+    height:30px;
+    padding-left:2%;
+}
+.adminname{
+    text-align: justify;
+}
+.adminname pre{
+    margin:0%;
+}
+.adminname small{
+    padding-top:none;
+}
+#downarrow{
+    width:30px;
+    height:30px;
+}
+.content-wrapper{
+    width: 100%;
+    display:flex;
+}
+.left-content{
+    width:60%;
+}
+.left-content h3{
+    margin-top:5%;
+    color:gray;
+    margin-bottom:1%;
+}
+.left-content small{
+    color:lightgray;
+}
+.right-content{
+    width:40%;
+    margin-top:4%;
+    display:flex;
+    justify-content:flex-end;
+}
+.add-employee{
+    width:30%;
+    height:70%;
+    background-color: rgb(244, 86, 86);
+    border:1px solid rgb(247, 137, 137);
+    color:white;
+    border-radius:4%;
+    font-size:12px;
+}
+.add-employee img{
+    width:17px;
+    height:15px;
+    margin-right:5px;
+}
+.Filter div{
+    border-color:rgb(249, 225, 225);
+}
+.Filter{
+    background-color: rgb(250, 240, 243);
+    margin-top:2%;
+    display:flex;
+    width:98%;
+    padding:1%;
+    border-color:rgb(240, 59, 59);
+    box-shadow: 0.1px 0.1px 0px 1px rgb(248, 133, 133);
+    border-radius:1%;
+}
+.left-filter{
+    width:85%;
+    display:flex;
+    gap:2%;
+}
+.vectors{
+    margin-top:1%;
+    width:2%;
+    height:50%;
+}
+.left-filter span{
+    color:red;
+}
+.left-filter select{
+    background-color: white;
+    color:rgb(144, 144, 144);
+    border-color:rgb(248, 133, 133);
+    border-radius:5%;
+    padding:0%;
+}
+.right-filter{
+    width:15%;
+    display:flex;
+    gap:10%;
+}
+.right-filter div{
+    border-color:red;
+}
+.reset{
+    background-color:white;
+    color:red;
+    border:1px solid red;
+    padding:5%;
+    border-radius:10%;
+}
+.apply{
+    background-color:red;
+    color:white;
+    padding:5%;
+    border-radius:10%;
+    border:none;
+}
+.rightmost{
+    text-align:right;
+}
+.employee-icons{
+    text-align:right;
+}
+.employee-icons img{
+    width:35%;
+    height:35%;
+}
+.icon-overlap{
+    margin-left:-20%;
+}
+.employee-iconsover{
+    text-align:right;
+}
+.employee-iconsover img{
+    width:30%;
+    height:30%;
+}
+.employee-details{
+    display:flex;
+    width:100%;
+}
+.top-row{
+    display:flex;
+    width:100%;
+    gap:2%;
+}
+table{
+    border-spacing: 5px 0px;
+}
+th{
+    text-align:left;
+    font-size:13px;
+}
+th,td{
+    padding:1%;
+}
+.individual-employee{
+    margin-top:3%;
+    width:32%;
+    padding-top:3%;
+    padding-left:2%;
+    padding-bottom:2%;
+    padding-right:2%;
+    font-size:12px;
+    box-shadow:0.1px 0.1px 0 1px rgb(227, 227, 227);
+    border-radius:3%;
+    color:gray;
+}
+.view{
+    margin-left:20px;
+    display:flex;
+    gap:0.5%;
+}
+.view img{
+    width:18px;
+    margin-left:2px;
+}
+
+
+
+
+@media screen and (max-width:760px){
+    .main-dashboard{
+        width:100%;
+        flex-direction:column;
+    }
+    .left-container{
+        width:100%;
+        flex-direction:column;
+    }
+    .left-menu-all{
+        margin-top:5%;
+    }
+    .list-in-all{
+        margin-top:0%;
+    }
+    .left-menu-roles{
+        margin-top:5%;
+    }
+    .list-in-roles{
+        margin-top:0%;
+    }
+    .left-menu-all, .list-in-all, .left-menu-roles, .list-in-roles{
+        margin-left:20%;
+    }
+    .roles p{
+        margin-right:40%;
+    }
+    .userroles p{
+        margin-right:10%;
+    }
+    .roles{
+        margin-right:50%;
+    }
+    .bottom-menu{
+        margin-left:20%;
+        margin-right:40%;
+    }
+    .search-bar,.content-wrapper{
+        margin-left:10%;
+    }
+    .profile-icons{
+        left:-5rem;
+        justify-content:flex-end;
+    }
+    .Filter{
+        margin-left:10%;
+        margin-right:10%;
+    }
+    .top-row{
+        width:100%;
+        flex-direction: column;
+        align-items:center;
+        justify-content: center;
+    }
+    .individual-employee{
+        width:60%;
+        height:100%;
+    }
+    .employee-details{
+        margin-top:50px;
+    }
+}
