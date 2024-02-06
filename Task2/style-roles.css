@@ -524,12 +524,17 @@ th,td{
         margin-left:10%;
     }
     .profile-icons{
-        left:-5rem;
-        justify-content:flex-end;
+        width:8%;
+        height:70%;
     }
     .Filter{
         margin-left:10%;
         margin-right:10%;
+        display:flex;
+        flex-direction:column;
+    }
+    .right-filter{
+        width:50%;
     }
     .role-details{
         width:100%;
@@ -538,24 +543,65 @@ th,td{
         justify-content: center;
     }
     .details-card{
-        width:60%;
+        width:80%;
         height:100%;
     }
     .details-wrapper{
         margin-top:50px;
+    }
+    #search-icon{
+        width: 4%;
+        height:40%;
     }
 }
 
 @media screen and (max-width:1024px)
 {
     .profile-icons{
-        left:5rem;
+        margin-left:3rem;
+        width:8%;
+        height:70%;
+    }
+    #search-icon{
+        width: 4%;
+        height:40%;
+    }
+}
+@media screen and (max-width:980px)
+{
+    .profile-icons{
+        margin-left:-3rem;
+        width:8%;
+        height:70%;
+    }
+    #search-icon{
+        width: 4%;
+        height:40%;
     }
 }
 @media screen and (max-width:768px)
 {
     .profile-icons{
         justify-content: flex-end;
-        margin-left: -7rem;
+        margin-left: -8rem;
+        width:8%;
+        height:70%;
+    }
+    #search-icon{
+        width: 4%;
+        height:40%;
+    }
+}
+@media screen and (max-width:700px)
+{
+    .profile-icons{
+        justify-content: flex-end;
+        margin-left: -12rem;
+        width:8%;
+        height:70%;
+    }
+    #search-icon{
+        width: 4%;
+        height:40%;
     }
 }

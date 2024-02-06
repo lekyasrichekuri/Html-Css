@@ -601,6 +601,7 @@ table tr:last-child{
 @media screen and (max-width:760px){
     .main-dashboard{
         width:100%;
+        gap:0%;
     }
     .tezo-logo{
         width:50%;
@@ -644,17 +645,44 @@ table tr:last-child{
         margin-left:10%;
     }
     .profile-icons{
-        left:-15rem;
+        width:8%;
+        height:70%;
     }
     table{
         margin-left:10%;
         margin-right:0%;
     }
-    .right-filter{
-        width:50%;
+    .Filter{
+        display:flex;
+        flex-direction: column;
     }
     #button{
         width:10%;
+    }
+    #search-icon{
+        width: 4%;
+        height:40%;
+    }
+    .top-menu{
+        margin-left:0%;
+    }
+    .list-in-all{
+        margin-left:0%;
+    }
+    .list-in-roles{
+        margin-left:0%;
+    }
+    .dashboard{
+        margin-left:0%;
+    }
+    .employee{
+        margin-left:0%;
+    }
+    .roles{
+        margin-left:0%;
+    }
+    .userroles{
+        margin-left:0%;
     }
     
 }
@@ -662,13 +690,50 @@ table tr:last-child{
 @media screen and (max-width:1024px)
 {
     .profile-icons{
-        left:5rem;
+        margin-left:3rem;
+        width:8%;
+        height:70%;
+    }
+    #search-icon{
+        width: 4%;
+        height:40%;
+    }
+}
+@media screen and (max-width:980px)
+{
+    .profile-icons{
+        margin-left:-3rem;
+        width:8%;
+        height:70%;
+    }
+    #search-icon{
+        width: 4%;
+        height:40%;
     }
 }
 @media screen and (max-width:768px)
 {
     .profile-icons{
         justify-content: flex-end;
-        margin-left: -7rem;
+        margin-left: -8rem;
+        width:8%;
+        height:70%;
+    }
+    #search-icon{
+        width: 4%;
+        height:40%;
+    }
+}
+@media screen and (max-width:700px)
+{
+    .profile-icons{
+        justify-content: flex-end;
+        margin-left: -12rem;
+        width:8%;
+        height:70%;
+    }
+    #search-icon{
+        width: 4%;
+        height:40%;
     }
 }

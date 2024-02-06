@@ -422,8 +422,8 @@ h4 img{
         margin-left:10%;
     }
     .profile-icons{
-        left:-5rem;
-        justify-content:flex-end;
+        width:8%;
+        height:70%;
     }
     .role-description{
         text-align:center;
@@ -439,21 +439,62 @@ h4 img{
         justify-content: center;
     }
     .individual-employee{
-        width:60%;
+        width:80%;
         height:100%;
+    }
+    #search-icon{
+        width: 4%;
+        height:40%;
     }
 }
 
 @media screen and (max-width:1024px)
 {
     .profile-icons{
-        left:5rem;
+        margin-left:3rem;
+        width:8%;
+        height:70%;
+    }
+    #search-icon{
+        width: 4%;
+        height:40%;
+    }
+}
+@media screen and (max-width:980px)
+{
+    .profile-icons{
+        margin-left:-3rem;
+        width:8%;
+        height:70%;
+    }
+    #search-icon{
+        width: 4%;
+        height:40%;
     }
 }
 @media screen and (max-width:768px)
 {
     .profile-icons{
         justify-content: flex-end;
-        margin-left: -7rem;
+        margin-left: -8rem;
+        width:8%;
+        height:70%;
+    }
+    #search-icon{
+        width: 4%;
+        height:40%;
+    }
+}
+@media screen and (max-width:700px)
+{
+    .profile-icons{
+        justify-content: flex-end;
+        margin-left: -12rem;
+        width:8%;
+        height:70%;
+    }
+    #search-icon{
+        width: 4%;
+        height:40%;
     }
 }
