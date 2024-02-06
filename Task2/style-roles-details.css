@@ -57,11 +57,11 @@
     margin-top:0.2%;
     margin-left:1.5%;
     margin-right:45%;
-    font-size:14px;
+    font-size:12px;
 }
 .employee img{
-    width:18px;
-    height:18px;
+    width:15px;
+    height:15px;
     margin-right:2%;
 }
 /* .left-menu-roles{
@@ -85,16 +85,15 @@
     margin-left:1.5%;
     width:75%;
     margin-bottom:3%;
-    font-size:14px;
+    font-size:12px;
     color:red;
     border-radius:2%;
 }
 .roles img{
-    width:20px; 
-    height:20px;
+    width:15px; 
+    height:15px;
     margin-top:6px;
     margin-left:3px;
-    margin-right:2%;
     justify-content:flex-end;
 }
 /* .userroles{
@@ -214,21 +213,22 @@
 } */
 .content-title{
     display:flex;
+    font-size:12px;
 }
 .content-title img{
-    width:3%; 
-    height:3%; 
-    margin-top:22px;
+    width:2.5%; 
+    height:2.5%; 
+    margin-top:18px;
 }
 .content-wrapper{
     width: 100%;
     display:flex;
+    margin-top:1%;
 }
 .left-content{
     width:70%;
 }
 .left-content h4{
-    margin-top:3%;
     color:gray;
     margin-bottom:1%;
 }
@@ -238,21 +238,22 @@ h4 img{
 }
 .left-content small{
     color:lightgray;
+    font-size:11px;
 }
 .right-content{
     width:30%;
-    margin-top:2%;
     display:flex;
     justify-content: flex-end;
 }
 .add-employee{
     width:50%;
-    height:70%;
+    height:50%;
     background-color: rgb(244, 86, 86);
     border:1px solid rgb(247, 137, 137);
     color:white;
-    border-radius:8%;
-    font-size:12px;
+    border-radius:4px;
+    font-size:11px;
+    margin-top:8%;
 }
 .add-employee img{
     width:17px;
@@ -263,12 +264,12 @@ h4 img{
     padding-bottom:1%;
     color:rgb(254, 253, 253);    
 }
-.role-description h3{
+.role-description h5{
     margin-bottom:0px;
 }
 .role-description small{
     color:lightgray;
-    font-size:12px;
+    font-size:11px;
 }
 .employee-details{
     display:flex;
@@ -302,13 +303,58 @@ h4 img{
     width:20px;
     margin-left:2px;
 }
+.role-details{
+    width: 100%;
+    display: flex;
+}
+.details-card{
+    width:33%;
+    display: block;
+    margin: 1.5rem 0.3rem 0rem 0.3rem;
+    border: 1px solid rgb(209, 208, 208);
+    border-radius:8px;
+    background-color: white;
+    font-size:12px;
+}
+.line{
+    display: flex;
+    align-items: center;
+    padding:0.4rem 1rem 0.1rem;
+}
+#line{
+    margin-top: 1rem;
+}
+.icon{
+    margin-left:0.5rem;
+}
+.icon img{
+    width: 1rem;
+    height: 1rem;
+    margin-top:2%;
+}
+/* .icon span{
+    padding-top:2rem;
+} */
+.right-text{
+    text-align: right;
+    padding:0rem 0.7rem 0rem 0.5rem;
+}
+.right-text img{
+    margin-top:0.2rem;
+}
+.edit-symbol{
+    width:1.5rem;
+    height:1.5rem;
+}
+.many-users{
+    text-align:right;
+}
 
 
 
 @media screen and (max-width:760px){
     .main-dashboard{
         width:100%;
-        flex-direction:column;
     }
     .tezo-logo{
         width:50%;
@@ -383,6 +429,7 @@ h4 img{
 @media screen and (max-width:768px)
 {
     .profile-icons{
-        left:2rem;
+        justify-content: flex-end;
+        margin-left: -7rem;
     }
 }

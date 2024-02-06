@@ -30,7 +30,7 @@ body{
 .left-menu-all{
     margin-top:18%;
     margin-left:10%;
-    font-size:80%;
+    font-size:13px;
     color:rgb(210, 210, 210);
 }
 .list-in-all{
@@ -39,6 +39,9 @@ body{
     padding-top:5%;
     color:gray;
 }
+.list-in-all div{
+    margin-bottom:5%;
+}
 .dashboard{
     display:flex;
 }
@@ -46,17 +49,17 @@ body{
     margin-top:0.2%;
     margin-left:1.5%;
     margin-right:45%;
-    font-size:14px;
+    font-size:12px;
 }
 .dashboard img{
-    width:20px; 
-    height:20px;
+    width:15px; 
+    height:15px;
     justify-content:flex-end;
 }
 .left-menu-roles{
     margin-top:10%;
     margin-left:10%;
-    font-size:80%;
+    font-size:13px;
     color:rgb(210, 210, 210);
 }
 .list-in-roles{
@@ -65,6 +68,9 @@ body{
     padding-top:5%;
     color:gray;
 }
+.list-in-roles div{
+    margin-bottom:5%;
+}
 .userroles{
     display:flex;
     margin-top:2%;
@@ -72,12 +78,13 @@ body{
 .userroles span{
     margin-top:0.2%;
     margin-left:1.5%;
-    font-size:14px;
+    font-size:12px;
     width:75%;
 }
 .userroles img{
-    width:20px; 
-    height:20px;
+    width:15px; 
+    height:15px;
+    margin-right:1%;
     justify-content:flex-end;
 }
 .bottom-install{
@@ -92,6 +99,7 @@ body{
 }
 .bottom-install p{
     color:rgb(188, 186, 186);
+    font-size:12px;
 }
 .dismiss{
     padding:5%;
@@ -121,7 +129,7 @@ body{
     background-color:white;
     display:flex;
     border:none;
-    border-radius:2%;
+    border-radius:3px;
     box-shadow: 0.1px 0.1px 0px 1px rgb(236, 234, 234);
 }
 .search-bar img{
@@ -138,8 +146,9 @@ body{
 }
 #search-icon{
     margin-left:3%;
-    width:5%;
-    height:60%;
+    width:4%;
+    height:40%;
+    margin-top:2.5%;
 }
 .profile-icons{
     width:50%;
@@ -147,11 +156,13 @@ body{
     padding-right:-200px;
     position:relative;
     left:7rem;
-    flex-wrap:wrap-reverse;
+    margin-bottom:1px;
 }
 .profile-icons img{
-    width:7%;
-    height:90%;
+    width:7.2%;
+    height:75%;
+    border-width:2px;
+    margin-top:1%;
 }
 #profile{
     margin-top:2%;
@@ -165,14 +176,11 @@ body{
     text-align: justify;
     flex-wrap:wrap;
 }
-.adminname pre{
-    margin:0%;
-}
-.adminname small{
-    padding-top:none;
+.adminname span{
+    font-size:12px;
 }
 #downarrow{
-    margin:2% 0%;
-    width:30px;
-    height:30px;
+    margin:3% 1%;
+    width:20px;
+    height:20px;
 }

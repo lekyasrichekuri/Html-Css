@@ -59,13 +59,14 @@
 .roles span{
     margin-top:0.2%;
     margin-left:1.5%;
-    font-size:14px;
+    font-size:12px;
     width:75%;
 }
 .roles img{
-    width:20px; 
-    height:20px;
+    width:15px; 
+    height:15px;
     justify-content:flex-end;
+    margin-right:1%;
 }
 .employee{
     display:flex;
@@ -79,13 +80,12 @@
     margin-left:1.5%;
     margin-right:45%;
     color:red;
-    font-size:14px;
+    font-size:12px;
 }
 .employee img{
     width:18px;
     height:18px;
     margin-top:3px;
-    margin-right:2%;
 }
 /*.list-in-all li{
     padding-bottom:5%;
@@ -308,18 +308,19 @@
 } */
 .content-wrapper{
     width: 100%;
-    display:flex;
+    display: flex;
+    margin-top: 4px;
 }
 .left-content{
     width:70%;
 }
-.left-content h3{
-    margin-top:5%;
+.left-content h5{
     color:gray;
     margin-bottom:1%;
 }
 .left-content small{
-    color:lightgray;
+    color:rgb(125, 123, 123);
+    font-size:11px;
 }
 .right-content{
     width:30%;
@@ -328,48 +329,59 @@
     justify-content: flex-end;
 }
 .export{
-    width:40%;
-    height:70%;
+    width:35%;
+    height:80%;
     background-color: white;
     color: rgb(186 183 183);
-    border-radius: 8%;
+    border-radius: 3px;
     margin-right: 18px;
     border: 1px solid rgb(152 147 147);
-    font-size: 12px;
+    font-size: 11px;
+    position: relative;
+    bottom: 13px;
+    padding-bottom: 5px;
 }
 .export img{
-    width:17px;
-    height:15px;
+    width:15px;
+    height:14px;
     margin-right:5px;
+    padding-top: 4%;
 }
 .export span{
-    padding-bottom:1%;
     color:gray;
 }
 .add-employee{
     width:50%;
-    height:70%;
+    height:80%;
     background-color: rgb(244, 86, 86);
     border:1px solid rgb(247, 137, 137);
     color:white;
-    border-radius:8%;
-    font-size:12px;
+    border-radius:3px;
+    font-size:11px;
+    position: relative;
+    bottom: 13px;
+    padding-bottom:5px;
 }
 .add-employee img{
     width:17px;
     height:15px;
     margin-right:5px;
+    padding-top: 2px;
+}
+.add-employee span{
+    padding-bottom:2px;
 }
 
 .index{
     display:flex;
     gap:0.8%;
+    margin-top:3px;
+    margin-bottom:2px;
 }
 .vector{
-    margin-top:5%;
+    margin-top:2%;
 }
 .index-count{
-    margin-top:3%;
     gap:2%;
 }
 .index-count button{
@@ -392,9 +404,9 @@
     border-color:rgb(240, 59, 59);
 }
 .vectors{
-    margin-top:1%;
+    margin-top:1.5%;
     width:2%;
-    height:50%;
+    height:40%;
 }
 .Filter{
     background-color: rgb(250, 240, 243);
@@ -404,23 +416,27 @@
     padding:1%;
     border-color:rgb(240, 59, 59);
     box-shadow: 0.1px 0.1px 0px 1px rgb(248, 133, 133);
-    border-radius:1%;
+    border-radius:3px;
 }
 .left-filter{
     width:80%;
     display:flex;
-    gap:2%;
+    gap:1%;
 }
 .left-filter span{
     color:red;
-    margin-top:0.5%;
+    margin-top:1%;
+    font-size:12px;
 }
 .left-filter select{
     background-color: white;
     color:rgb(84, 84, 84);
     border-color:rgb(252, 95, 95);
     border-radius:5%;
-    padding:0%;
+    padding: 0px 3px;
+    margin-top:2px;
+    font-size:11px;
+    border-radius: 5px;
 }
 .right-filter{
     width:20%;
@@ -435,14 +451,16 @@
     color:red;
     border:1px solid red;
     padding:5% 10%;
-    border-radius:10%;
+    border-radius:5px;
+    font-size:11px;
 }
 .apply{
     background-color:red;
     color:white;
     padding:5% 10%;
-    border-radius:10%;
+    border-radius:5px;
     border:none;
+    font-size:11px;
 }
 .main-employees-data{
     margin-top:3%;
@@ -455,7 +473,6 @@
 table{
     border-collapse:collapse;
     border:1px solid rgb(218, 218, 218);
-    border-radius:10%;
 }
 .topline hr{
     height: 1px;
@@ -535,7 +552,7 @@ table tr:last-child{
 .extra{
     font-size: 22px;
 }
-.arrow {
+/* .arrow {
     border: 1px solid rgb(14, 13, 13);
     border-width: 0 2px 2px 0;
     display: inline-block;
@@ -544,21 +561,21 @@ table tr:last-child{
 .up {
     transform: rotate(-135deg);
     -webkit-transform: rotate(-135deg);
-    position:fixed;
+    position:relative;
+    top:2%;
 }
 .down {
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
-    position:fixed;
-    bottom: 35.7%;
-}
+    position:absolute;
+    bottom: 36%;
+} */
 
 
 
 @media screen and (max-width:760px){
     .main-dashboard{
         width:100%;
-        flex-direction:column;
     }
     .tezo-logo{
         width:50%;
@@ -602,7 +619,7 @@ table tr:last-child{
         margin-left:10%;
     }
     .profile-icons{
-        left:-5rem;
+        left:-15rem;
     }
     table{
         margin-left:10%;
@@ -626,6 +643,7 @@ table tr:last-child{
 @media screen and (max-width:768px)
 {
     .profile-icons{
-        left:2rem;
+        justify-content: flex-end;
+        margin-left: -7rem;
     }
 }
