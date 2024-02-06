@@ -48,6 +48,13 @@
     height:20px;
     margin-right:2%;
 } */
+.list-in-all div{
+    margin-bottom:5%;
+    margin-left:6%;
+}
+.dashboard{
+    display:flex;
+}
 .employee{
     display:flex;
     padding-top:2%;
@@ -79,6 +86,7 @@
 .roles{
     display:flex;
     background-color: rgb(246, 217, 224);
+    border-radius: 3px;
 }
 .roles span{
     margin-top:3%;
@@ -87,14 +95,17 @@
     margin-bottom:3%;
     font-size:12px;
     color:red;
-    border-radius:2%;
 }
 .roles img{
     width:15px; 
     height:15px;
     margin-top:6px;
     margin-left:3px;
+    margin-right:2%;
     justify-content:flex-end;
+}
+#userroles span{
+    margin-right:3px;
 }
 /* .userroles{
     display:flex;
@@ -259,10 +270,13 @@ h4 img{
     width:17px;
     height:15px;
     margin-right:5px;
+    padding-top:2%;
 }
 .add-employee span{
     padding-bottom:1%;
-    color:rgb(254, 253, 253);    
+    color:rgb(254, 253, 253);  
+    position:relative;
+    top:-2px;  
 }
 .role-description h5{
     margin-bottom:0px;

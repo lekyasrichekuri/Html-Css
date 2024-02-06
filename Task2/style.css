@@ -53,6 +53,13 @@
     height:20px;
     justify-content:flex-end;
 }*/
+.list-in-all div{
+    margin-bottom:5%;
+}
+.dashboard{
+    display:flex;
+    margin-left:6%;
+}
 .roles{
     display:flex;
 }
@@ -66,14 +73,16 @@
     width:15px; 
     height:15px;
     justify-content:flex-end;
-    margin-right:1%;
+    margin-right:2%;
 }
 .employee{
     display:flex;
     background-color: rgb(246, 217, 224);
-    padding-top:2%;
-    border-radius: 4%;;
+    padding:2% 0% 2% 0%;
+    border-radius:3px;
     margin-top:2%;
+    padding-left:4%;
+    margin-left:2%;
 }
 .employee span{
     margin-top:0.2%;
@@ -86,6 +95,7 @@
     width:18px;
     height:18px;
     margin-top:3px;
+    margin-right:2%;
 }
 /*.list-in-all li{
     padding-bottom:5%;
@@ -343,12 +353,14 @@
 }
 .export img{
     width:15px;
-    height:14px;
+    height:16px;
     margin-right:5px;
     padding-top: 4%;
 }
 .export span{
     color:gray;
+    position: relative;
+    top: -2px;
 }
 .add-employee{
     width:50%;
@@ -366,10 +378,11 @@
     width:17px;
     height:15px;
     margin-right:5px;
-    padding-top: 2px;
+    padding-top: 5%;
 }
 .add-employee span{
-    padding-bottom:2px;
+    position: relative;
+    top: -3px;
 }
 
 .index{
@@ -486,14 +499,14 @@ table{
 }
 td{
     padding:0%;
-    font-size:12px;
+    font-size:11px;
     font-weight:bold;
 }
 th{
     text-align:left;
     color:rgb(11, 11, 11);
     font-weight:bold;
-    font-size:12px;
+    font-size:10px;
 }
 /* .arrows{
     display:flex;
@@ -501,12 +514,12 @@ th{
 } */
 th img{
     width:8px;
-    height:8px;
+    height:7px;
 }
 table button{
     border:none;
-    background-color:rgb(227, 249, 227);
-    color:rgb(125, 244, 125);
+    background-color:rgb(223, 248, 223);
+    color:rgb(91, 253, 91);
     border-radius:10%;
 }
 table tr{

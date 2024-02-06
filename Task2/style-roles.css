@@ -76,9 +76,17 @@
     padding-top:5%;
     color:gray;
 }*/
+.list-in-all div{
+    margin-bottom:5%;
+    margin-left:6%;
+}
+.dashboard{
+    display:flex;
+}
 .roles{
     display:flex;
     background-color: rgb(246, 217, 224);
+    border-radius: 3px;
 }
 .roles span{
     margin-top:3%;
@@ -87,14 +95,17 @@
     margin-bottom:3%;
     font-size:12px;
     color:red;
-    border-radius:2%;
 }
 .roles img{
     width:15px; 
     height:15px;
     margin-top:6px;
     margin-left:3px;
+    margin-right:2%;
     justify-content:flex-end;
+}
+#userroles span{
+    margin-right:3px;
 }
 /*.userroles{
     display:flex;
@@ -249,6 +260,11 @@
     width:16px;
     height:15px;
     margin-right:5px;
+    padding-top:7%;
+}
+.add-employee span{
+    position:relative;
+    top:-3px;
 }
 .Filter div{
     border-color:rgb(249, 225, 225);
@@ -269,7 +285,7 @@
     gap:1%;
 }
 .vectors{
-    margin-top:1%;
+    margin-top:1.2%;
     width:1.5%;
     height:40%;
 }
