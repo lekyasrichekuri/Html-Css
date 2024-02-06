@@ -60,6 +60,7 @@
     font-size:12px;
 }
 .employee img{
+    margin-top:1%;
     width:15px;
     height:15px;
     margin-right:2%;
@@ -87,6 +88,11 @@
     display:flex;
     background-color: rgb(246, 217, 224);
     border-radius: 3px;
+    width:90%;
+}
+.role{
+    display:flex;
+    gap:2%;
 }
 .roles span{
     margin-top:3%;
@@ -106,6 +112,9 @@
 }
 #userroles span{
     margin-right:3px;
+}
+#userroles span{
+    margin-right: -12px;
 }
 /*.userroles{
     display:flex;
@@ -299,7 +308,7 @@
     color:rgb(57, 56, 56);
     border-color:rgb(248, 133, 133);
     border-radius:4px;
-    padding:0%;
+    padding:0% 0.8%;
     font-size:11px;
 }
 .right-filter{
@@ -414,17 +423,18 @@ th,td{
     width:33%;
     display: block;
     margin: 1rem 0.3rem 0rem 0.3rem;
-    border: 1px solid rgb(176, 175, 175);
+    border: 1px solid rgb(227, 225, 225);
     border-radius:4px;
     background-color: white;
-    font-size:12px;
+    color:rgb(109, 108, 108);
+    font-size:11px;
     padding-bottom:1rem;
 }
 .line{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding:0.4rem;
+    padding:0.2rem 0.4rem;
 }
 #line{
     margin-top: 1rem;

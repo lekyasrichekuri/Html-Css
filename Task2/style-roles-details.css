@@ -67,6 +67,7 @@
     font-size:12px;
 }
 .employee img{
+    margin-top:1%;
     width:15px;
     height:15px;
     margin-right:2%;
@@ -87,6 +88,11 @@
     display:flex;
     background-color: rgb(246, 217, 224);
     border-radius: 3px;
+    width:90%;
+}
+.role{
+    display:flex;
+    gap:2%;
 }
 .roles span{
     margin-top:3%;
@@ -106,6 +112,9 @@
 }
 #userroles span{
     margin-right:3px;
+}
+#userroles span{
+    margin-right: -12px;
 }
 /* .userroles{
     display:flex;
@@ -296,7 +305,7 @@ h4 img{
 }
 .individual-employee{
     margin-top:3%;
-    width:32%;
+    width:33%;
     padding-top:3%;
     padding-left:2%;
     padding-bottom:2%;
@@ -324,11 +333,12 @@ h4 img{
 .details-card{
     width:33%;
     display: block;
-    margin: 1.5rem 0.3rem 0rem 0.3rem;
-    border: 1px solid rgb(209, 208, 208);
+    margin: 1.5rem -0.4rem -0.4rem 0.3rem;
+    border: 1px solid rgb(235, 234, 234);
     border-radius:8px;
     background-color: white;
-    font-size:12px;
+    color:rgb(43, 42, 42);
+    font-size:11px;
 }
 .line{
     display: flex;
