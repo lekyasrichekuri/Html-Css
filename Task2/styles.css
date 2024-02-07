@@ -68,7 +68,7 @@ body{
     margin-top:5%;
     margin-left:6%;
     color:gray;
-    font-weight:500;
+    font-weight:550;
 }
 .list-in-roles div{
     margin-bottom:2%;
@@ -93,7 +93,7 @@ body{
 .bottom-install{
     background-color: rgb(248, 237, 240);
     padding:5%;
-    border-radius:5%;
+    border-radius:0.8rem;
     margin-top:14%;
     font-size:13px;
 }
@@ -123,10 +123,10 @@ body{
 }
 .search-wrapper{
     display:flex;
-    width:50%;
     color:lightgray;
 }
 .search-bar{
+    width:100%;
     background-color:white;
     display:flex;
     border:none;
@@ -134,11 +134,13 @@ body{
     box-shadow: 0.1px 0.1px 0px 1px rgb(236, 234, 234);
     align-items:center;
     height:45px;
+    flex-direction:row;
+    gap:50%;
 }
-.search-bar img{
-    width: 4%;
-    height:40%;
-}
+/* .search-bar img{
+    width: 2%;
+    height:20%;
+} */
 .search-bar input{
     border:none;
     background-color:white;
@@ -146,42 +148,179 @@ body{
 .search-bar input::placeholder{
     color:lightgray;
 }
+input:focus{
+    outline:none;
+}
 #search-icon{
-    margin-left:3%;
-    width:4%;
-    height:40%;
-}
-.profile-icons{
-    width:50%;
-    display:flex;
-    padding-right:-200px;
-    position:relative;
-    left:7rem;
-    margin-bottom:1px;
-}
-.profile-icons img{
+    margin-left:5%;
     width:7%;
     height:70%;
-    border-width:2px;
-    margin-top:2%;
+    align-self: center;
+}
+.profile-icons{
+    display:flex;
+    align-self:center;
+    /* padding-right:-200px; */
+    /* position:relative; */
+    /* left:7rem; */
+    /* margin-bottom:1px; */
+}
+.profile-icons img{
+    width:10%;
+    height:70%;
+    margin:2px;
+    align-self: center;
 }
 #profile{
-    margin-top:2%;
     margin-right:2%;
-    margin-bottom:2%;
     width:30px; 
     height:30px;
     padding-left:2%;
 }
 .adminname{
-    text-align: justify;
+    text-align:justify;
     flex-wrap:wrap;
 }
 .adminname span{
-    font-size:12px;
+    font-size:8px;
 }
 #downarrow{
-    margin:3% 1%;
     width:20px;
     height:20px;
+}
+
+
+
+
+@media screen and (max-width:428px){
+    .main-dashboard{
+        width: 100%;
+        display: flex;
+        gap: 3rem;
+        flex-direction: column;
+    }
+    .left-container{
+        width:100%;
+    }
+    .right-container{
+        width:100%;
+    }
+    .search-bar{
+        display:flex;
+        flex-direction:column;
+        height:auto;
+    }
+    .search-wrapper{
+        width: 100%;
+    }
+    /* .profile-icons{
+        width:100%;
+        align-items: flex-start;
+        margin-left:-17rem;
+    } */
+    .dashboard{
+        margin-left:6%;
+    }
+    .employee{
+        margin-left:2%;
+    }
+    #search-icon{
+        width:4%;
+        height:40%;
+    }
+}
+
+@media screen and (max-width: 700px) and (min-width: 427px){
+    .main-dashboard{
+        width: 100%;
+        display:flex;
+        flex-direction:column;
+        gap:3rem;
+    }
+    .left-container{
+        width:100%;
+    }
+    .right-container{
+        width:100%;
+    }
+    .dismiss, .accept{
+        height:5%;
+    }
+    .dashboard{
+        margin-left:6%;
+    }
+    .employee{
+        margin-left:2%;
+    }
+    .roles img{
+        margin-top:1%;
+    }
+    .roles span{
+        margin-top:1%;
+    }
+    .search-bar{
+        gap:0%;
+    }
+    .left-menu-all, .list-in-all span, .left-menu-roles, .list-in-roles span{
+        font-size:16px;
+    }
+    .tezo-logo{
+        width:50%;
+        height:80%;
+    }
+    .handle{
+        width: 4%;
+        height:6%;
+    }
+    .dismiss, .accept{
+        padding:10px;
+    }
+    .left-menu-all{
+        margin-top:6%;
+    }
+    .list-in-all{
+        margin-top:3%;
+    }
+    .list-in-all div{
+        margin-bottom:1%;
+    }
+    .left-menu-roles{
+        margin-top:6%;
+    }
+    .list-in-roles{
+        margin-top:3%;
+    }
+    .left-menu-roles div{
+        margin-bottom:1%;
+    }
+    .bottom-install{
+        margin-top:8%;
+    }
+}
+
+@media screen and (max-width:900px)
+{
+    .search-bar{
+        gap:20%;
+    }
+    /* .add-employee{
+        margin-bottom:3%;
+    } */
+}
+@media screen and (max-width:1042px)
+{
+    .add-employee{
+        margin-bottom:4%;
+    }
+}
+@media screen and (max-width:1440px)
+{
+    .add-employee{
+        margin-bottom:4%;
+    }
+}
+@media screen and (min-width:1200px){
+    .add-employee {
+        margin-bottom:6%;
+    }
 }

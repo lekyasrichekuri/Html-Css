@@ -71,6 +71,11 @@
     margin-left:1.5%;
     font-size:12px;
     width:75%;
+    
+}
+.roles a{
+    text-decoration:none;
+    color:gray;
 }
 .roles img{
     width:15px; 
@@ -424,9 +429,6 @@
     background-color:red;
     color:white;
 }
-.Filter div{
-    border-color:rgb(240, 59, 59);
-}
 .vectors{
     margin-top:1.5%;
     width:2%;
@@ -438,9 +440,11 @@
     display:flex;
     width:98%;
     padding:1%;
-    border-color:rgb(240, 59, 59);
-    box-shadow: 0.1px 0.1px 0px 1px rgb(248, 133, 133);
+    box-shadow: 0.1px 0.1px 0px 1px rgb(253, 208, 208);
     border-radius:3px;
+}
+select:focus{
+    outline:none;
 }
 .left-filter{
     width:80%;
@@ -598,6 +602,11 @@ table tr:last-child{
 
 
 
+
+
+
+
+
 @media screen and (max-width:760px){
     .main-dashboard{
         width:100%;
@@ -610,8 +619,11 @@ table tr:last-child{
         width:5%;
     }
     .left-container{
-        width:100%;
+        width:40%;
         flex-direction:column;
+    }
+    .right-container{
+        width:60%;
     }
     .left-menu-all{
         margin-top:5%;
@@ -641,28 +653,36 @@ table tr:last-child{
         margin-left:20%;
         margin-right:40%;
     } */
-    .search-bar,.content-wrapper, .index, .Filter{
-        margin-left:10%;
-    }
-    .profile-icons{
+    /* .profile-icons{
         width:8%;
         height:70%;
-    }
+    } */
     table{
-        margin-left:10%;
+        /* margin-left:11%; */
         margin-right:0%;
     }
     .Filter{
         display:flex;
         flex-direction: column;
     }
+    .right-filter{
+        margin-top: 2%;
+    }
+    .export{
+        margin-top:5%;
+        width:70%;
+    }
+    .add-employee{
+        width:70%;
+    }
     #button{
         width:10%;
     }
-    #search-icon{
+    /* #search-icon{
         width: 4%;
         height:40%;
-    }
+        margin-top:2%;
+    } */
     .top-menu{
         margin-left:0%;
     }
@@ -684,12 +704,26 @@ table tr:last-child{
     .userroles{
         margin-left:0%;
     }
+    .right-content{
+        display:flex;
+        flex-direction:column;
+        gap:10%;
+    }
+    .search-wrapper{
+        width:40%;
+    }
+    /* .profile-icons{
+        width:60%;
+    } */
+    .dismiss, .accept{
+        margin-top:5%;
+    }
     
 }
 
 @media screen and (max-width:1024px)
 {
-    .profile-icons{
+    /* .profile-icons{
         margin-left:3rem;
         width:8%;
         height:70%;
@@ -697,11 +731,12 @@ table tr:last-child{
     #search-icon{
         width: 4%;
         height:40%;
-    }
+        margin-top:0.6%;
+    } */
 }
 @media screen and (max-width:980px)
 {
-    .profile-icons{
+    /* .profile-icons{
         margin-left:-3rem;
         width:8%;
         height:70%;
@@ -709,22 +744,26 @@ table tr:last-child{
     #search-icon{
         width: 4%;
         height:40%;
-    }
+        margin-top:2%;
+    } */
 }
 @media screen and (max-width:768px)
 {
-    .profile-icons{
-        justify-content: flex-end;
-        margin-left: -8rem;
+    /* .profile-icons{
+        margin-left:-25rem;
         width:8%;
         height:70%;
     }
     #search-icon{
         width: 4%;
         height:40%;
+        margin-top:1%;
+    } */
+    .dismiss, .accept{
+        margin-top:5%;
     }
 }
-@media screen and (max-width:700px)
+/* @media screen and (max-width:700px)
 {
     .profile-icons{
         justify-content: flex-end;
@@ -735,5 +774,42 @@ table tr:last-child{
     #search-icon{
         width: 4%;
         height:40%;
+        margin-top:2%;
+    }
+} */
+/* @media screen and (max-width:1074px){
+    .profile-icons{
+        margin-left:-3rem;
+    }
+}
+@media screen and (max-width:886px){
+    .profile-icons{
+        margin-left:-6rem;
+    }
+}
+@media screen and (max-width:740px){
+    .profile-icons{
+        margin-left:-8rem;
+    }
+} */
+@media screen and (max-width:426px){
+    .main-dashboard{
+        width: 100%;
+        display: flex;
+        gap: 3rem;
+        flex-direction: column;
+    }
+    .left-container{
+        width:100%;
+    }
+    .top-menu{
+        width:100%;
+        margin-right:20px;
+    }
+    .bottom-menu{
+        width:80%;
+    }
+    .add-employee,.export{
+        width:100%;
     }
 }

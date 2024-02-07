@@ -53,6 +53,10 @@
     padding-top:2%;
     border-radius: 10%;;
 }
+.employee a{
+    text-decoration: none;
+    color:gray;
+}
 .employee span{
     margin-top:0.2%;
     margin-left:1.5%;
@@ -275,18 +279,17 @@
     position:relative;
     top:-3px;
 }
-.Filter div{
-    border-color:rgb(249, 225, 225);
-}
 .Filter{
     background-color: rgb(250, 240, 243);
     margin-top:2%;
     display:flex;
     width:98%;
     padding:1%;
-    border-color:rgb(240, 59, 59);
-    box-shadow: 0.1px 0.1px 0px 1px rgb(248, 133, 133);
+    box-shadow: 0.1px 0.1px 0px 1px rgb(253, 208, 208);
     border-radius:3px;
+}
+select:focus{
+    outline:none;
 }
 .left-filter{
     width:85%;
@@ -451,7 +454,7 @@ th,td{
     padding-top:2rem;
 } */
 .right-text{
-    text-align: right;
+    /* text-align: right; */
     padding:0rem 0.7rem 0rem 0.5rem;
 }
 .right-text img{
@@ -504,37 +507,20 @@ th,td{
     .list-in-roles{
         margin-top:0%;
     }
-    .left-menu-all, .list-in-all, .left-menu-roles, .list-in-roles{
-        margin-left:20%;
-    }
-    .roles p{
-        margin-right:40%;
-    }
-    .userroles p{
-        margin-right:10%;
-    }
-    .roles{
-        margin-right:50%;
-    }
-    .bottom-menu{
-        margin-left:20%;
-        margin-right:40%;
-    }
-    .search-bar,.content-wrapper{
-        margin-left:10%;
-    }
-    .profile-icons{
+    
+    /* .profile-icons{
         width:8%;
         height:70%;
-    }
+    } */
     .Filter{
-        margin-left:10%;
-        margin-right:10%;
         display:flex;
         flex-direction:column;
     }
     .right-filter{
-        width:50%;
+        margin-top: 2%;
+    }
+    .add-employee {
+        width:70%;
     }
     .role-details{
         width:100%;
@@ -549,39 +535,52 @@ th,td{
     .details-wrapper{
         margin-top:50px;
     }
-    #search-icon{
+    /* #search-icon{
         width: 4%;
         height:40%;
+        margin-top:2%;
+    }
+    .profile-icons{
+        width:60%;
+    } */
+    .dismiss, .accept{
+        margin-top:5%;
     }
 }
 
-@media screen and (max-width:1024px)
+@media screen and (min-width:1024px)
 {
-    .profile-icons{
-        margin-left:3rem;
+    /* .profile-icons{
+        margin-left:-2rem;
         width:8%;
         height:70%;
     }
     #search-icon{
         width: 4%;
         height:40%;
-    }
+        margin-top:0.6%;
+    } */
 }
 @media screen and (max-width:980px)
 {
-    .profile-icons{
-        margin-left:-3rem;
+    /* .profile-icons{
+        margin-left:-5rem;
         width:8%;
         height:70%;
     }
     #search-icon{
         width: 4%;
         height:40%;
+        margin-top:2%;
+    } */
+    .add-employee{
+        width:50%;
+        margin-bottom:4%;
     }
 }
 @media screen and (max-width:768px)
 {
-    .profile-icons{
+    /* .profile-icons{
         justify-content: flex-end;
         margin-left: -8rem;
         width:8%;
@@ -590,11 +589,15 @@ th,td{
     #search-icon{
         width: 4%;
         height:40%;
+        margin-top:1%;
+    } */
+    .add-employee{
+        width:50%;
     }
 }
 @media screen and (max-width:700px)
 {
-    .profile-icons{
+    /* .profile-icons{
         justify-content: flex-end;
         margin-left: -12rem;
         width:8%;
@@ -603,5 +606,11 @@ th,td{
     #search-icon{
         width: 4%;
         height:40%;
+        margin-top:2%;
+    } */
+}
+@media screen and (max-width: 700px) and (min-width: 427px){
+    .userroles{
+        width:94%;
     }
 }
