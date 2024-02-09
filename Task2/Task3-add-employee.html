@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Task3AddEmployee</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style-add-employee.css">
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    </head>
+    <body>
+        <section class="main-dashboard">
+            <div class="left-container" id="left-container">
+                <div class="top-menu">
+                    <div class="left-menu">
+                        <div class="tezo-logo">
+                            <img src="assets/images/TezoLogo.png" alt="tezologo" style="width:60%;">
+                        </div>
+                    </div>
+                    <article class="left-menu-all">ALL</article>
+                    <section class="list-in-all">
+                        <div class="dashboard">
+                            <img src="assets/Horizontal nav/Dashboard.svg" alt="lock">
+                            <span>Dashboard</span>
+                        </div>
+                        <div class="employees">
+                            <div class="employee">
+                                <img src="assets/Horizontal nav/Employees.svg" alt="home">
+                                <span>Employees</span>
+                            </div>
+                            <div style="width:2%;background-color: red;border-radius:5px 0px 0px 5px;">
+
+                            </div>
+                        </div>
+                    </section>
+                    <article class="left-menu-roles">ROLE /USER MANAGEMENT</article>
+                    <section class="list-in-roles">
+                        <div class="roles">
+                            <img src="assets/horizontal nav/Roles.svg" alt="lock">
+                            <span><a href="task2-roles.html">Roles</a></span>
+                            <img src="assets/images/rightarrow.png" alt="rightarrow">
+                        </div>
+                        <div class="userroles" id="userroles">
+                            <img src="assets/horizontal nav/assign user.svg" alt="lock">
+                            <span>Access rights</span>
+                            <img src="assets/images/rightarrow.png" alt="rightarrow">
+                        </div>
+                    </section>
+                </div>
+                <div class="bottom-menu">
+                    <section class="bottom-install">
+                        <span>Install new update 2.3.1A</span>
+                        <p>Allow to launch the new update for the AD application</p>
+                        <button class="dismiss">Dismiss</button>
+                        <button class="accept">Accept</button>
+                    </section>
+                </div>
+            </div>
+            <div class="left-container2" id="left-container2">
+                <div class="side-bar">
+                    <img src="assets/images/tezo_logo1.jpg" alt="logo" style="width:130%;margin-left:-10%;margin-bottom:50%;">
+                    <img src="assets/Horizontal nav/Dashboard.svg" alt="dashboard" style="margin-left:25%;">
+                    <img src="assets/team_svgrepo.com.svg" alt="employee" style="width:50%;margin-left:25%;">
+                    <img src="assets/Horizontal nav/Roles.svg" alt="roles" style="margin-left:22%">
+                    <img src="assets/Horizontal nav/assign user.svg" alt="assign" style="margin-left:22%">
+                </div> 
+            </div>
+            <div class="right-container" id="right-container">
+                <div class="handle">
+                    <img src="assets/images/handle.png" alt="handle" onclick="SideBar()"  id="handle">
+                </div>
+                <div class="search-bar">
+                    <div class="search-wrapper">
+                        <img src="assets/images/bx-search.png" alt="search icon" id="search-icon">
+                        <input type="name" placeholder="Search">
+                    </div>
+                    <div class="profile-icons">
+                        <img src="assets/images/IconButton.png" alt="iconbutton">
+                        <img src="assets/images/icon1.png" alt="icon1">
+                        <img src="assets/images/icon2.png" alt="icon2">
+                        <img src="assets/images/icon3.png" alt="icon3">
+                        <img src="assets/images/profileicon.png" alt="profileicon" id="profile">
+                        <div class="adminname" style="display:flex;align-self:center; flex-direction:column;">
+                            <span>Jhon Abraham</span>
+                            <b style="font-size:10px;">Admin</b>
+                        </div>
+                        <img src="assets/images/blackdownarrow.jpg" alt="arrow" id="downarrow">
+                    </div>
+                </div>
+                <section class="addemployeedata">
+                    <h4>Add Employee</h4>
+                    <div class="profile-picture">
+                            <img src="assets/images/profileicon.png" alt="profileicon" >
+                            <button>Upload Profile Picture</button>
+                    </div>
+                    <h5>Personal Information</h5>
+                    <div class="emp-no">
+                        <label for="empno">Emp No</label><br>
+                        <input type="empno" id="empno" name="empno" placeholder="Text" required>
+                    </div>
+                    <div class="employee-name">
+                        <div>
+                            <label for="fname">First Name</label><br>
+                            <input type="fname" id="fname" name="fname" placeholder="Text" required>
+                        </div>
+                        <div>
+                            <label for="lname">Last Name</label><br>
+                            <input type="lname" id="lname" name="lname" placeholder="Text" required>
+                        </div>
+                        <div>
+                            <label for="dob">Date of Birth</label><br>
+                            <input type="date" id="date" name="date" placeholder="select">
+                        </div>
+                    </div>
+                    <div class="contact">
+                        <div>
+                            <label for="email">Email Id</label><br>
+                            <input type="email" id="email" name="email" placeholder="Joe.j@technovert.com">
+                        </div>
+                        <div>
+                            <label for="mobile">Mobile Number</label><br>
+                            <input type="tel" id="tel" name="tel" placeholder="00000000000">
+                        </div>
+                    </div>
+                    <h5>Employment Information</h5>
+                    <div class="joining-date">
+                        <div class="joindate">
+                            <label for="joindate">Joining Date</label><br>
+                            <input type="joindate" id="joindate" name="joindate" placeholder="12/08/2023">
+                        </div>
+                        <div class="location">
+                            <label for="location"> Location</label><br>
+                            <select id="location" name="location">
+                                <option value="location">Hyderabad</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="job">
+                        <div>
+                            <label for="jobtitle">Job Title</label><br>
+                            <select id="jobtitle" name="jobtitle">
+                                <option value="jobtitle">UX Designer</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="department">Department</label><br>
+                            <select id="department" name="department">
+                                <option value="department">UI/UX</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="assign">
+                        <div>
+                            <label for="Manager">Assign Manager</label><br>
+                            <select id="Manager" name="Manager">
+                                <option value="Manager">Search</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="project">Assign Project</label><br>
+                            <select id="project" name="project">
+                                <option value="project">Search</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="right_buttons">
+                        <button class="cancel">Cancel</button>
+                        <button class="add">Add Employee</button>
+                    </div>
+                </section>
+            </div>
+        </section>
+        <script src="task2-common.js"></script>
+    </body>
+</html>

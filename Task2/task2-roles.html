@@ -9,14 +9,11 @@
     </head>
     <body>
         <section class="main-dashboard">
-            <div class="left-container">
+            <div class="left-container" id="left-container">
                 <div class="top-menu">
                     <div class="left-menu">
                         <div class="tezo-logo">
                             <img src="assets/images/TezoLogo.png" alt="tezologo" style="width:60%;">
-                        </div>
-                        <div class="handle">
-                            <img src="assets/images/handle.png" alt="handle" style="width:130%;">
                         </div>
                     </div>
                     <article class="left-menu-all">ALL</article>
@@ -27,7 +24,7 @@
                         </div>
                         <div class="employee">
                             <img src="assets/team_svgrepo.com.svg" alt="home">
-                            <span><a href="http://127.0.0.1:5500/Task2/task2.html">Employees</a></sapn>
+                            <span><a href="task2.html">Employees</a></sapn>
                         </div>
                     </section>
                     <article class="left-menu-roles">ROLE /USER MANAGEMENT</article>
@@ -57,7 +54,19 @@
                     </section>
                 </div>
             </div>
-            <div class="right-container">
+            <div class="left-container2" id="left-container2">
+                <div class="side-bar">
+                    <img src="assets/images/tezo_logo1.jpg" alt="logo" style="width:130%;margin-left:-10%;margin-bottom:50%;">
+                    <img src="assets/Horizontal nav/Dashboard.svg" alt="dashboard" style="margin-left:25%;">
+                    <img src="assets/team_svgrepo.com.svg" alt="employee" style="width:50%;margin-left:25%;">
+                    <img src="assets/Horizontal nav/Roles.svg" alt="roles" style="margin-left:22%">
+                    <img src="assets/Horizontal nav/assign user.svg" alt="assign" style="margin-left:22%">
+                </div> 
+            </div>
+            <div class="right-container" id="right-container">
+                <div class="handle">
+                    <img src="assets/images/handle.png" alt="handle" onclick="SideBar()"  id="handle">
+                </div>
                 <div class="search-bar">
                     <div class="search-wrapper">
                         <img src="assets/images/bx-search.png" alt="search icon" id="search-icon">
@@ -83,7 +92,7 @@
                     </div>
                     <div class="right-content">
                         <button class="add-employee">
-                            <img src="assets/interface/Add.svg" alt="plus"><span>ADD ROLE</span>
+                            <img src="assets/interface/Add.svg" alt="plus"><span><a href="task3-newrole.html">ADD ROLE</a></span>
                         </button>
                     </div>
                 </div>
@@ -404,7 +413,7 @@
                             </div>
                             <div class="line">
                                 <div class="icon" style="display:flex; gap:5%;">
-                                    <div >
+                                    <div>
                                         <img src="assets/location-pin-alt-1_svgrepo.com.svg" alt="">
                                     </div>
                                     <div style="padding-bottom:5%;">
@@ -673,6 +682,7 @@
                 </div>
             </div>
         </section>
+        <script src="task2-common.js"></script>
     </body>
 
 </html>
