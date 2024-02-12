@@ -152,7 +152,7 @@ body{
     margin-top:1.3%;
     position:absolute;
     left:-1.8rem;
-    width:20%;
+    width:17%;
     cursor:pointer;
 }
 .handle img{
@@ -327,6 +327,13 @@ input:focus{
     }
     .bottom-install{
         margin-top:8%;
+    }
+    #left-container2{
+        width:100%;
+        flex-direction:row;
+    }
+    #left-container2{
+        display:none;
     }
 }
 

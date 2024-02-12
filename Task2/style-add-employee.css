@@ -55,6 +55,10 @@
     margin-top:3px;
     margin-right:2%;
 }
+.employee a{
+    text-decoration:none;
+    color:red;
+}
 #userroles {
     padding-top:3%;
 }
@@ -241,6 +245,29 @@ select:focus{
     border-radius:0.4rem;
     color:white;;
 }
+
+#alertBox {
+    display:none;
+    position:fixed;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    background-color:rgb(251, 221, 239);
+    padding:20px;
+    border-radius:5px;
+    border:1px solid rgb(248, 150, 215);
+}
+
+.alertContent {
+    text-align:center;
+}
+
+.successMessage {
+    color:rgb(253, 48, 48);
+    font-size:larger;
+    font-weight:600;
+}
+
 
 
 

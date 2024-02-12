@@ -110,6 +110,10 @@
     margin-top:3px;
     margin-right:2%;
 }
+.employee a{
+    text-decoration:none;
+    color:red;
+}
 #userroles {
     padding-top:3%;
 }
@@ -422,7 +426,7 @@
     border:none;
     background-color: rgb(237, 234, 234);
     color:rgb(151, 151, 151);
-    padding: 10px 9px;
+    padding: 10px 9.6px;
     border-radius:3px;
     margin:1% 0%;
 }
@@ -536,7 +540,7 @@ th img{
     width:8px;
     height:7px;
 }
-table button{
+.active{
     border:none;
     background-color:rgb(223, 248, 223);
     color:rgb(6, 215, 6);
@@ -553,6 +557,7 @@ table tr{
     color:white;
     margin-bottom:1%;
     margin-top:1%;
+    border:none;
 }
 td a{
     text-decoration:none;
@@ -570,7 +575,7 @@ td a{
 #row-color{
     background-color:rgb(253, 244, 253);
 }
-table tr{
+table tr,th{
     margin:2% 0;
     border-bottom:1px solid rgb(205, 203, 203);
 }
@@ -604,6 +609,10 @@ table tr:last-child{
     position:absolute;
     bottom: 36%;
 } */
+
+.highlight{
+    background-color:red;
+}
 
 
 
