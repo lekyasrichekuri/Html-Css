@@ -20,6 +20,6 @@ function addEmployee() {
     alertBox.style.display='block';
 
     setTimeout(function(){
-        window.location.href='task2.html';
+        window.location.href='task3.html';
     },1000);
 }
