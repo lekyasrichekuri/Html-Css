@@ -21,5 +21,5 @@ function addEmployee() {
 
     setTimeout(function(){
         window.location.href='task2.html';
-    },5000);
+    },1000);
 }

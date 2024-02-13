@@ -1,7 +1,7 @@
 .employee{
     display:flex;
     padding-top:2%;
-    border-radius: 10%;;
+    border-radius: 10%;
 }
 .employee a{
     text-decoration: none;

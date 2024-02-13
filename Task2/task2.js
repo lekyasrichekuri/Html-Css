@@ -42,9 +42,9 @@ function buildTable(emp){
             {text:'Delete',value:'delete'}
         ]
         extra.style.border='none';
-        extra.style.outline='none';
         extra.style.appearance='none';
         extra.style.fontSize='12px';
+        extra.style.color='rgb(86, 86, 86)';
         options.forEach(function (option){
             var optionElement=document.createElement('option');
             optionElement.textContent=option.text;
@@ -55,14 +55,34 @@ function buildTable(emp){
     });
 }
 
-function filterEmployees(selectedAlphabet){
-    var rows = document.querySelectorAll("#main-table tbody");
-    rows.forEach(function(row){
-      var name=row.cells[1].textContent;
-      if (name.charAt(0).toUpperCase()===selectedAlphabet.toUpperCase()||selectedAlphabet==='') {
-        row.classList.add("highlight");
-      } else {
-        row.classList.remove("highlight");
-      }
+var buttons=document.querySelectorAll(".letter-button");
+console.log(buttons);
+var previousButton=null;
+buttons.forEach(function(button) {
+    button.addEventListener("click", function(){
+        var buttonText=button.innerText;
+        if (previousButton!==null) {
+            previousButton.style.backgroundColor="";
+            previousButton.style.color="";
+        }
+        button.style.backgroundColor="rgb(249, 23, 23)";
+        button.style.color='white';
+        previousButton=button;
+        filterTableByLetter(buttonText);
     });
+});
+function filterTableByLetter(letter) {
+    var rows=JSON.parse(localStorage.getItem('employees'))||[];
+    let data=rows.filter(ele=>{
+        var username=ele.name;
+        var firstLetter=username.charAt(0).toUpperCase();
+        console.log(firstLetter);
+        return (firstLetter===letter);
+    })
+    if (data.length===0) {
+        document.getElementById('table-body').innerHTML="<tr><td colspan='6'>No matches found</td></tr>";
+    } else {
+        document.getElementById('table-body').innerHTML = "";
+        buildTable(data);
+    }
 }
