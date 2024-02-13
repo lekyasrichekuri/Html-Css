@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Task2RoleDetails</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style-roles-details.css">
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    </head>
+    <body>
+        <section class="main-dashboard">
+            <div class="left-container" id="left-container">
+                <div class="top-menu">
+                    <div class="left-menu">
+                        <div class="tezo-logo">
+                            <img src="assets/images/TezoLogo.png" alt="tezologo" style="width:60%;">
+                        </div>
+                    </div>
+                    <article class="left-menu-all">ALL</article>
+                    <section class="list-in-all">
+                        <div class="dashboard">
+                            <img src="assets/Horizontal nav/Dashboard.svg" alt="lock">
+                            <span>Dashboard</span>
+                        </div>
+                        <div class="employee">
+                            <img src="assets/team_svgrepo.com.svg" alt="home">
+                            <span><a href="task2.html">Employees</a></span>
+                        </div>
+                    </section>
+                    <article class="left-menu-roles">ROLE /USER MANAGEMENT</article>
+                    <section class="list-in-roles">
+                        <div class="role">
+                            <div class="roles">
+                                <img src="assets/horizontal nav/Roles.svg" alt="lock">
+                                <span><a href="task2-roles.html">Roles</a></span>
+                                <img src="assets/images/rightarrow.png" alt="rightarrow">
+                            </div>
+                            <div style="width:2%;background-color: red; border-radius:5px 0px 0px 5px;">
+                            </div>
+                        </div>
+                        <div class="userroles" id="userroles">
+                            <img src="assets/horizontal nav/assign user.svg" alt="lock">
+                            <span>Access rights</span>
+                            <img src="assets/images/rightarrow.png" alt="rightarrow">
+                        </div>
+                    </section>
+                </div>
+                <div class="bottom-menu">
+                    <section class="bottom-install">
+                        <span>Install new update 2.3.1A</span>
+                        <p>Allow to launch the new update for the AD application</p>
+                        <button class="dismiss">Dismiss</button>
+                        <button class="accept">Accept</button>
+                    </section>
+                </div>
+            </div>
+            <div class="left-container2" id="left-container2">
+                <div class="side-bar">
+                    <img src="assets/images/tezo_logo1.jpg" alt="logo" style="width:130%;margin-left:-10%;margin-bottom:50%;">
+                    <img src="assets/Horizontal nav/Dashboard.svg" alt="dashboard" style="margin-left:25%;">
+                    <img src="assets/team_svgrepo.com.svg" alt="employee" style="width:50%;margin-left:25%;">
+                    <img src="assets/Horizontal nav/Roles.svg" alt="roles" style="margin-left:22%">
+                    <img src="assets/Horizontal nav/assign user.svg" alt="assign" style="margin-left:22%">
+                </div> 
+            </div>
+            <div class="right-container" id="right-container">
+                <div class="handle">
+                    <img src="assets/images/handle.png" alt="handle" onclick="SideBar()"  id="handle">
+                </div>
+                <div class="search-bar">
+                    <div class="search-wrapper">
+                        <img src="assets/images/bx-search.png" alt="search icon" id="search-icon">
+                        <input type="name" placeholder="Search">
+                    </div>
+                    <div class="profile-icons">
+                        <img src="assets/images/IconButton.png" alt="iconbutton">
+                        <img src="assets/images/icon1.png" alt="icon1">
+                        <img src="assets/images/icon2.png" alt="icon2">
+                        <img src="assets/images/icon3.png" alt="icon3">
+                        <img src="assets/images/profileicon.png" alt="profileicon" id="profile">
+                        <div class="adminname" style="display:flex;align-self:center; flex-direction:column;">
+                            <span>Jhon Abraham</span>
+                            <b style="font-size:10px;">Admin</b>
+                        </div>
+                        <img src="assets/images/blackdownarrow.jpg" alt="arrow" id="downarrow">
+                    </div>
+                </div>
+                <div class="content-wrapper">
+                    <div class="left-content">
+                        <div class="content-title">
+                            <h4>Roles </h4>
+                            <img src=assets/images/rightarrow.png>
+                            <h4>Employees</h4>
+                        </div>
+                        <small>All the roles are configured here</small>
+                    </div>
+                    <div class="right-content">
+                        <button class="add-employee"> 
+                            <img src="assets/interface/Add.svg" alt="plus"><span>ADD EMPLOYEE</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="role-description">
+                    <h5>Role Description</h5>
+                    <small>Configure the providers that are available to users when they sign in. Configure the providers that are available to users when they sign in. Configure the providers that are available to users when they sign in.Configure the providers that are available to users when they sign in. </small>
+                </div>
+                <section class="employee-details">
+                    <div class="top-row">
+                        <!-- <div class="individual-employee">
+                            <table>
+                                <tr>
+                                    <td rowspan="2"><img src=assets/images/profileicon.png width="30px" height="30px"></td>
+                                    <td><b>Robert Fox</b></td>
+                                </tr>
+                                <tr>
+                                    <td>Head of Product Design</td>
+                                </tr>
+                                <tr>
+                                    <td>
+
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><img src=assets/Vectors.svg></td>
+                                    <td>INF122</td>
+                                </tr>
+                                <tr>
+                                    <td><img src=assets/email-1_svgrepo.com.svg></td>
+                                    <td>adamk@yahoo.com</td>
+                                </tr>
+                                <tr>
+                                    <td><img src=assets/team_svgrepo.com.svg></td>
+                                    <td>Technology</td>
+                                </tr>
+                                <tr>
+                                    <td><img src=assets/location-pin-alt-1_svgrepo.com.svg></td>
+                                    <td>Stockon,New Hampshire</td>
+                                </tr>
+                            </table>-->
+                            <!-- <span>View<img src="Vector.svg"></span> -->
+                            <!--<div class="view">
+                                <span>View</span>
+                                <img src="assets/Vector.svg">
+                            </div> 
+                        </div> -->
+                        <div class="details-card">
+                            <div class="line" id="line" style="display:flex;gap:2%;">
+                                <div>
+                                    <img src=assets/images/profileicon.png width="30px" height="30px">
+                                </div>
+                                <div>
+                                    <span><b>Robert Fox</b></span><br/>
+                                    <span>Head of product design</span>
+                                </div>
+                            </div>
+                            <div class="line">
+                                <div class="icon" style="display:flex;gap:15%;">
+                                    <div>
+                                        <img src=assets/Vectors.svg>
+                                    </div>
+                                    <div style="padding-bottom:5%;">
+                                        <span>INF122</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="line">
+                                <div class="icon" style="display:flex; gap:5%;">
+                                    <div >
+                                        <img src=assets/email-1_svgrepo.com.svg>
+                                    </div>
+                                    <div style="padding-bottom:5%;">
+                                        <span>adamk@yahoo.com</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="line">
+                                <div class="icon" style="display:flex; gap:10%;">
+                                    <div >
+                                        <img src=assets/team_svgrepo.com.svg>
+                                    </div>
+                                    <div style="padding-bottom:5%;">
+                                        <span>Technology</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="line">
+                                <div class="icon" style="display:flex; gap:5%;">
+                                    <div>
+                                        <img src=assets/location-pin-alt-1_svgrepo.com.svg>
+                                    </div>
+                                    <div style="padding-bottom:5%;width:100%;">
+                                        <span>Stockon,New&nbsp;Hampshire</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="line">
+                                <div class="right-text" style="display:flex;gap:5%;margin-left:70%;">
+                                    <div>
+                                        <span>View</span>
+                                    </div>
+                                    <div style="margin-bottom:50%;">
+                                        <img src="assets/Vector.svg">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div class="individual-employee">
+                            <table>
+                                <tr>
+                                    <td rowspan="2"><img src=assets/images/profileicon.png width="30px" height="30px"></td>
+                                    <td><b>Marvin McKinney</b></td>
+                                </tr>
+                                <tr>
+                                    <td>Head of Engineering</td>
+                                </tr>
+                                <tr>
+                                    <td>
+
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><img src=assets/Vectors.svg></td>
+                                    <td>INF150</td>
+                                </tr>
+                                <tr>
+                                    <td><img src=assets/email-1_svgrepo.com.svg></td>
+                                    <td>sravani@yahoo.com</td>
+                                </tr>
+                                <tr>
+                                    <td><img src=assets/team_svgrepo.com.svg></td>
+                                    <td>Admin</td>
+                                </tr>
+                                <tr>
+                                    <td><img src=assets/location-pin-alt-1_svgrepo.com.svg></td>
+                                    <td>Syracuse, Connecticut</td>
+                                </tr>
+                            </table>
+                            <div class="view">
+                                <span>View</span>
+                                <img src="assets/Vector.svg">
+                            </div>
+                        </div>
+                        <div class="individual-employee">
+                            <table>
+                                <tr>
+                                    <td rowspan="2"><img src=assets/images/profileicon.png width="30px" height="30px"></td>
+                                    <td><b>Eleanor Pena</b></td>
+                                </tr>
+                                <tr>
+                                    <td>Senior Interaction Designer</td>
+                                </tr>
+                                <tr>
+                                    <td>
+
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><img src=assets/Vectors.svg></td>
+                                    <td>INF240</td>
+                                </tr>
+                                <tr>
+                                    <td><img src=assets/email-1_svgrepo.com.svg></td>
+                                    <td>grolschie@mac.com</td>
+                                </tr>
+                                <tr>
+                                    <td><img src=assets/team_svgrepo.com.svg></td>
+                                    <td>Customer Executive</td>
+                                </tr>
+                                <tr>
+                                    <td><img src=assets/location-pin-alt-1_svgrepo.com.svg></td>
+                                    <td>Portland, Illinois</td>
+                                </tr>
+                            </table>
+                            <div class="view">
+                                <span>View</span>
+                                <img src="assets/Vector.svg">
+                            </div>
+                        </div> -->
+                        <div class="details-card">
+                            <div class="line" id="line" style="display:flex;gap:2%;">
+                                <div>
+                                    <img src=assets/images/profileicon.png width="30px" height="30px">
+                                </div>
+                                <div>
+                                    <span><b>   Marvin McKinney</b></span><br/>
+                                    <span>Head of Engineering</span>
+                                </div>
+                            </div>
+                            <div class="line">
+                                <div class="icon" style="display:flex;gap:15%;">
+                                    <div>
+                                        <img src=assets/Vectors.svg>
+                                    </div>
+                                    <div style="padding-bottom:5%;">
+                                        <span>INF150</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="line">
+                                <div class="icon" style="display:flex; gap:5%;">
+                                    <div >
+                                        <img src=assets/email-1_svgrepo.com.svg>
+                                    </div>
+                                    <div style="padding-bottom:5%;">
+                                        <span>sravani@yahoo.com</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="line">
+                                <div class="icon" style="display:flex; gap:10%;">
+                                    <div >
+                                        <img src=assets/team_svgrepo.com.svg>
+                                    </div>
+                                    <div style="padding-bottom:5%;">
+                                        <span>Admin</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="line">
+                                <div class="icon" style="display:flex; gap:5%;">
+                                    <div>
+                                        <img src=assets/location-pin-alt-1_svgrepo.com.svg>
+                                    </div>
+                                    <div style="padding-bottom:5%;width:100%;">
+                                        <span>Syracuse,Connecticut</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="line">
+                                <div class="right-text" style="display:flex;gap:5%;margin-left:70%;">
+                                    <div>
+                                        <span>View</span>
+                                    </div>
+                                    <div style="margin-bottom:50%;">
+                                        <img src="assets/Vector.svg">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="details-card">
+                            <div class="line" id="line" style="display:flex;gap:2%;">
+                                <div>
+                                    <img src=assets/images/profileicon.png width="30px" height="30px">
+                                </div>
+                                <div>
+                                    <span><b>Eleanor Pena</b></span><br/>
+                                    <span>Senior Interaction Designer</span>
+                                </div>
+                            </div>
+                            <div class="line">
+                                <div class="icon" style="display:flex;gap:15%;">
+                                    <div>
+                                        <img src=assets/Vectors.svg>
+                                    </div>
+                                    <div style="padding-bottom:5%;">
+                                        <span>INF240</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="line">
+                                <div class="icon" style="display:flex; gap:5%;">
+                                    <div >
+                                        <img src=assets/email-1_svgrepo.com.svg>
+                                    </div>
+                                    <div style="padding-bottom:5%;">
+                                        <span>grolschie@mac.com</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="line">
+                                <div class="icon" style="display:flex; gap:5%;">
+                                    <div >
+                                        <img src=assets/team_svgrepo.com.svg>
+                                    </div>
+                                    <div style="padding-bottom:5%;">
+                                        <span>Customer&nbsp;Executive</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="line">
+                                <div class="icon" style="display:flex; gap:5%;">
+                                    <div>
+                                        <img src=assets/location-pin-alt-1_svgrepo.com.svg>
+                                    </div>
+                                    <div style="padding-bottom:5%;width:100%;">
+                                        <span>Portland,Illinois</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="line">
+                                <div class="right-text" style="display:flex;gap:5%;margin-left:70%;">
+                                    <div>
+                                        <span>View</span>
+                                    </div>
+                                    <div style="margin-bottom:50%;">
+                                        <img src="assets/Vector.svg">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="employee-details">
+                    <div class="top-row">
+                        <!-- <div class="individual-employee">
+                            <table>
+                                <tr>
+                                    <td rowspan="2"><img src=assets/images/profileicon.png width="30px" height="30px"></td>
+                                    <td><b>Jane Copper</b></td>
+                                </tr>
+                                <tr>
+                                    <td>Product Analyst</td>
+                                </tr>
+                                <tr>
+                                    <td>
+
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><img src=assets/Vectors.svg></td>
+                                    <td>INF389</td>
+                                </tr>
+                                <tr>
+                                    <td><img src=assets/email-1_svgrepo.com.svg></td>
+                                    <td>chronos@aol.com</td>
+                                </tr>
+                                <tr>
+                                    <td><img src=assets/team_svgrepo.com.svg></td>
+                                    <td>Product</td>
+                                </tr>
+                                <tr>
+                                    <td><img src=assets/location-pin-alt-1_svgrepo.com.svg></td>
+                                    <td>Coppell, Virginia</td>
+                                </tr>
+                            </table>
+                            <div class="view">
+                                <span>View</span>
+                                <img src="assets/Vector.svg">
+                            </div>
+                        </div>
+                        <div class="individual-employee">
+                            <table>
+                                <tr>
+                                    <td rowspan="2"><img src=assets/images/profileicon.png width="30px" height="30px"></td>
+                                    <td><b>Floyd Miles</b></td>
+                                </tr>
+                                <tr>
+                                    <td>Visual Designer</td>
+                                </tr>
+                                <tr>
+                                    <td>
+
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><img src=assets/Vectors.svg></td>
+                                    <td>INF209</td>
+                                </tr>
+                                <tr>
+                                    <td><img src=assets/email-1_svgrepo.com.svg></td>
+                                    <td>dgatwood@msn.com</td>
+                                </tr>
+                                <tr>
+                                    <td><img src=assets/team_svgrepo.com.svg></td>
+                                    <td>Customer Executive</td>
+                                </tr>
+                                <tr>
+                                    <td><img src=assets/location-pin-alt-1_svgrepo.com.svg></td>
+                                    <td>Lansing, Illinois</td>
+                                </tr>
+                            </table>
+                            <div class="view">
+                                <span>View</span>
+                                <img src="assets/Vector.svg">
+                            </div>
+                        </div>
+                        <div class="individual-employee">
+                            <table>
+                                <tr>
+                                    <td rowspan="2"><img src=assets/images/profileicon.png width="30px" height="30px"></td>
+                                    <td><b>Dianne Russell</b></td>
+                                </tr>
+                                <tr>
+                                    <td>Full Stack Software Engineer</td>
+                                </tr>
+                                <tr>
+                                    <td>
+
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><img src=assets/Vectors.svg></td>
+                                    <td>INF922</td>
+                                </tr>
+                                <tr>
+                                    <td><img src=assets/email-1_svgrepo.com.svg></td>
+                                    <td>kspiteri@live.com</td>
+                                </tr>
+                                <tr>
+                                    <td><img src=assets/team_svgrepo.com.svg></td>
+                                    <td>Human Research</td>
+                                </tr>
+                                <tr>
+                                    <td><img src=assets/location-pin-alt-1_svgrepo.com.svg></td>
+                                    <td>Corona, Michigan</td>
+                                </tr>
+                            </table>
+                            <div class="view">
+                                <span>View</span>
+                                <img src="assets/Vector.svg">
+                            </div>
+                        </div> -->
+                        <div class="details-card">
+                            <div class="line" id="line" style="display:flex;gap:2%;">
+                                <div>
+                                    <img src=assets/images/profileicon.png width="30px" height="30px">
+                                </div>
+                                <div>
+                                    <span><b>Jane Cooper</b></span><br/>
+                                    <span>Product Analyst</span>
+                                </div>
+                            </div>
+                            <div class="line">
+                                <div class="icon" style="display:flex;gap:15%;">
+                                    <div>
+                                        <img src=assets/Vectors.svg>
+                                    </div>
+                                    <div style="padding-bottom:5%;">
+                                        <span>INF389</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="line">
+                                <div class="icon" style="display:flex; gap:5%;">
+                                    <div >
+                                        <img src=assets/email-1_svgrepo.com.svg>
+                                    </div>
+                                    <div style="padding-bottom:5%;">
+                                        <span>chronos@aol.com</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="line">
+                                <div class="icon" style="display:flex; gap:10%;">
+                                    <div >
+                                        <img src=assets/team_svgrepo.com.svg>
+                                    </div>
+                                    <div style="padding-bottom:5%;">
+                                        <span>Product</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="line">
+                                <div class="icon" style="display:flex; gap:5%;">
+                                    <div>
+                                        <img src=assets/location-pin-alt-1_svgrepo.com.svg>
+                                    </div>
+                                    <div style="padding-bottom:5%;width:100%;">
+                                        <span>Coppell,Virginia</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="line">
+                                <div class="right-text" style="display:flex;gap:5%;margin-left:70%;">
+                                    <div>
+                                        <span>View</span>
+                                    </div>
+                                    <div style="margin-bottom:50%;">
+                                        <img src="assets/Vector.svg">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="details-card">
+                            <div class="line" id="line" style="display:flex;gap:2%;">
+                                <div>
+                                    <img src=assets/images/profileicon.png width="30px" height="30px">
+                                </div>
+                                <div>
+                                    <span><b>Floyd Miles</b></span><br/>
+                                    <span>Visual Designer</span>
+                                </div>
+                            </div>
+                            <div class="line">
+                                <div class="icon" style="display:flex;gap:15%;">
+                                    <div>
+                                        <img src=assets/Vectors.svg>
+                                    </div>
+                                    <div style="padding-bottom:5%;">
+                                        <span>INF209</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="line">
+                                <div class="icon" style="display:flex; gap:5%;">
+                                    <div >
+                                        <img src=assets/email-1_svgrepo.com.svg>
+                                    </div>
+                                    <div style="padding-bottom:5%;">
+                                        <span>dgatwood@msn.com</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="line">
+                                <div class="icon" style="display:flex; gap:5%;">
+                                    <div >
+                                        <img src=assets/team_svgrepo.com.svg>
+                                    </div>
+                                    <div style="padding-bottom:5%;">
+                                        <span>Customer&nbsp;Executive</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="line">
+                                <div class="icon" style="display:flex; gap:5%;">
+                                    <div>
+                                        <img src=assets/location-pin-alt-1_svgrepo.com.svg>
+                                    </div>
+                                    <div style="padding-bottom:5%;width:100%;">
+                                        <span>Lansing,Illinois</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="line">
+                                <div class="right-text" style="display:flex;gap:5%;margin-left:70%;">
+                                    <div>
+                                        <span>View</span>
+                                    </div>
+                                    <div style="margin-bottom:50%;">
+                                        <img src="assets/Vector.svg">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="details-card">
+                            <div class="line" id="line" style="display:flex;gap:2%;">
+                                <div>
+                                    <img src=assets/images/profileicon.png width="30px" height="30px">
+                                </div>
+                                <div>
+                                    <span><b>Dianne Russell</b></span><br/>
+                                    <span>Full stack Software Engineer</span>
+                                </div>
+                            </div>
+                            <div class="line">
+                                <div class="icon" style="display:flex;gap:15%;">
+                                    <div>
+                                        <img src=assets/Vectors.svg>
+                                    </div>
+                                    <div style="padding-bottom:5%;">
+                                        <span>INF922</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="line">
+                                <div class="icon" style="display:flex; gap:5%;">
+                                    <div >
+                                        <img src=assets/email-1_svgrepo.com.svg>
+                                    </div>
+                                    <div style="padding-bottom:5%;">
+                                        <span>kspiteri@live.com</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="line">
+                                <div class="icon" style="display:flex; gap:5%;">
+                                    <div >
+                                        <img src=assets/team_svgrepo.com.svg>
+                                    </div>
+                                    <div style="padding-bottom:5%;">
+                                        <span>Human&nbsp;Research</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="line">
+                                <div class="icon" style="display:flex; gap:5%;">
+                                    <div>
+                                        <img src=assets/location-pin-alt-1_svgrepo.com.svg>
+                                    </div>
+                                    <div style="padding-bottom:5%;width:100%;">
+                                        <span>Corona,Michigan</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="line">
+                                <div class="right-text" style="display:flex;gap:5%;margin-left:70%;">
+                                    <div>
+                                        <span>View</span>
+                                    </div>
+                                    <div style="margin-bottom:50%;">
+                                        <img src="assets/Vector.svg">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </section>
+        <script src="task2-common.js"></script>
+    </body>
+</html>

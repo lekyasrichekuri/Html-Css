@@ -1,0 +1,317 @@
+.employee{
+    display:flex;
+    padding-top:2%;
+    border-radius: 10%;;
+}
+.employee a{
+    text-decoration: none;
+    color:gray;
+}
+.employee span{
+    margin-top:0.2%;
+    margin-left:1.5%;
+    margin-right:45%;
+    font-size:12px;
+}
+.employee img{
+    margin-top:1%;
+    width:15px;
+    height:15px;
+    margin-right:2%;
+}
+.list-in-all div{
+    margin-bottom:5%;
+    margin-left:6%;
+}
+.dashboard{
+    display:flex;
+}
+.roles{
+    display:flex;
+    background-color: rgb(246, 217, 224);
+    border-radius: 3px;
+    width:90%;
+}
+.role{
+    display:flex;
+    gap:2%;
+}
+.roles span{
+    margin-top:3%;
+    margin-left:1.5%;
+    width:75%;
+    margin-bottom:3%;
+    font-size:12px;
+    color:red;
+}
+.roles img{
+    width:15px; 
+    height:15px;
+    margin-top:6px;
+    margin-left:3px;
+    margin-right:2%;
+    justify-content:flex-end;
+}
+.roles a{
+    text-decoration:none;
+    color:red;
+}
+#userroles span{
+    margin-right:3px;
+}
+#userroles span{
+    margin-right: -12px;
+}
+.content-wrapper{
+    width: 100%;
+    display:flex;
+    margin-top:1px;
+}
+.left-content{
+    width:60%;
+}
+.left-content h5{
+    color:gray;
+    margin-bottom:1%;
+}
+.left-content small{
+    color:lightgray;
+    font-size:12px;
+}
+.right-content{
+    width:40%;
+    display:flex;
+    margin-top:20px;
+    justify-content:flex-end;
+}
+.add-employee{
+    width:30%;
+    height:60%;
+    background-color: rgb(244, 86, 86);
+    border:1px solid rgb(247, 137, 137);
+    color:white;
+    border-radius:4px;
+    font-size:11px;
+    position:relative;
+    bottom:4px;
+    padding-bottom:5px;
+}
+.add-employee img{
+    width:16px;
+    height:15px;
+    margin-right:5px;
+    padding-top:7%;
+}
+.add-employee span{
+    position:relative;
+    top:-3px;
+}
+.add-employee a{
+    text-decoration: none;
+    color:white;
+}
+.Filter{
+    background-color: rgb(250, 240, 243);
+    margin-top:2%;
+    display:flex;
+    width:98%;
+    padding:1%;
+    box-shadow: 0.1px 0.1px 0px 1px rgb(253, 208, 208);
+    border-radius:3px;
+}
+select:focus{
+    outline:none;
+}
+.left-filter{
+    width:85%;
+    display:flex;
+    gap:1%;
+}
+.vectors{
+    margin-top:1.2%;
+    width:1.5%;
+    height:40%;
+}
+.left-filter span{
+    color:red;
+    margin-top:0.6%;
+    font-size:12px;
+}
+.left-filter select{
+    background-color: white;
+    color:rgb(57, 56, 56);
+    border-color:rgb(248, 133, 133);
+    border-radius:4px;
+    padding:0% 0.8%;
+    font-size:11px;
+}
+.right-filter{
+    width:15%;
+    display:flex;
+    gap:10%;
+}
+.right-filter div{
+    border-color:red;
+}
+.reset{
+    background-color:white;
+    color:red;
+    border:1px solid red;
+    padding:5%;
+    border-radius:4px;
+    font-size:11px;
+}
+.apply{
+    background-color:red;
+    color:white;
+    padding:5%;
+    border-radius:4px;
+    border:none;
+    font-size:11px;
+}
+
+.view{
+    margin-left:30px;
+    display:flex;
+    gap:0%;
+    width: 55%;
+}
+.view img{
+    width:18px;
+    margin-left:2px;
+
+}
+.role-details{
+    width: 100%;
+    display: flex;
+}
+.details-card{
+    width:33%;
+    display: block;
+    margin: 1rem 0.3rem 0rem 0.3rem;
+    border: 1px solid rgb(227, 225, 225);
+    border-radius:4px;
+    background-color: white;
+    color:rgb(109, 108, 108);
+    font-size:11px;
+    padding-bottom:1rem;
+}
+.line{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0.2rem 0.4rem;
+}
+#line{
+    margin-top: 1rem;
+}
+.icon{
+    margin-left:0.5rem;
+}
+.icon img{
+    width: 1rem;
+    height: 1rem;
+    margin-top:2%;
+}
+.right-text{
+    /* text-align: right; */
+    padding:0rem 0.7rem 0rem 0.5rem;
+}
+.right-text img{
+    margin-top:0.7rem;
+}
+.edit-symbol{
+    width:1.5rem;
+    height:1.5rem;
+}
+.many-users{
+    text-align:right;
+}
+.many-users img{
+    width:10%;
+    height:10%;
+}
+.many-users .icon-overlap{
+    margin-left:-12%;
+    margin-right:5%;
+}
+
+
+
+
+
+
+@media screen and (max-width:760px){
+    .main-dashboard{
+        width:100%;
+    }
+    .tezo-logo{
+        width:50%;
+    }
+    .handle{
+        width:5%;
+    }
+    .left-container{
+        width:100%;
+        flex-direction:column;
+    }
+    .left-menu-all{
+        margin-top:5%;
+    }
+    .list-in-all{
+        margin-top:0%;
+    }
+    .left-menu-roles{
+        margin-top:5%;
+    }
+    .list-in-roles{
+        margin-top:0%;
+    }
+    .Filter{
+        display:flex;
+        flex-direction:column;
+    }
+    .right-filter{
+        margin-top: 2%;
+    }
+    .add-employee {
+        width:70%;
+    }
+    .role-details{
+        width:100%;
+        flex-direction: column;
+        align-items:center;
+        justify-content: center;
+    }
+    .details-card{
+        width:80%;
+        height:100%;
+    }
+    .details-wrapper{
+        margin-top:50px;
+    }
+    .dismiss, .accept{
+        margin-top:5%;
+    }
+    .roles img {
+        padding-top:0.7%;
+    }
+}
+@media screen and (max-width:980px)
+{
+    .add-employee{
+        width:50%;
+        margin-bottom:4%;
+    }
+}
+@media screen and (max-width:768px)
+{
+    .add-employee{
+        width:50%;
+    }
+}
+@media screen and (max-width: 700px) and (min-width: 427px){
+    .userroles{
+        width:94%;
+    }
+}

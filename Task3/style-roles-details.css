@@ -1,0 +1,550 @@
+/* body{
+    overflow-x:hidden;
+    margin:1rem;
+    font-family:"poppins";
+}
+.main-dashboard{
+    width:100%;
+    display:flex;
+    gap:1.5%;
+}
+.left-container{
+    width:18%;
+}
+.left-menu{
+    display:flex;
+}
+.tezo-logo{
+    margin:5% 0 0 5%;
+    width:90%;
+}
+.handle{
+    margin-top:5%;
+    width:10%;
+}
+.left-menu-all{
+    margin-top:18%;
+    margin-left:10%;
+    font-size:80%;
+    color:rgb(210, 210, 210);
+}
+.list-in-all{
+    margin-top:6%;
+    margin-left:6%;
+    padding-top:5%;
+    color:gray;
+}
+.dashboard{
+    display:flex;
+}
+.dashboard span{
+    margin-top:0.2%;
+    margin-left:1.5%;
+    margin-right:45%;
+    font-size:14px;
+}
+.dashboard img{
+    width:20px; 
+    height:20px;
+    margin-right:2%;
+} */
+.list-in-all div{
+    margin-bottom:5%;
+    margin-left:6%;
+}
+.dashboard{
+    display:flex;
+}
+.employee{
+    display:flex;
+    padding-top:2%;
+    border-radius: 10%;;
+}
+.employee span{
+    margin-top:0.2%;
+    margin-left:1.5%;
+    margin-right:45%;
+    font-size:12px;
+}
+.employee img{
+    margin-top:1%;
+    width:15px;
+    height:15px;
+    margin-right:2%;
+}
+.employee a{
+    text-decoration: none;
+    color:gray;
+}
+/* .left-menu-roles{
+    margin-top:10%;
+    margin-left:10%;
+    font-size:80%;
+    color:rgb(210, 210, 210);
+}
+.list-in-roles{
+    margin-top:5%;
+    margin-left:6%;
+    padding-top:5%;
+    color:gray;
+} */
+.roles{
+    display:flex;
+    background-color: rgb(246, 217, 224);
+    border-radius: 3px;
+    width:90%;
+}
+.role{
+    display:flex;
+    gap:2%;
+}
+.roles a{
+    text-decoration: none;
+    color:red;
+}
+.roles span{
+    margin-top:3%;
+    margin-left:1.5%;
+    width:75%;
+    margin-bottom:3%;
+    font-size:12px;
+    color:red;
+}
+.roles img{
+    width:15px; 
+    height:15px;
+    margin-top:6px;
+    margin-left:3px;
+    margin-right:2%;
+    justify-content:flex-end;
+}
+#userroles span{
+    margin-right:3px;
+}
+#userroles span{
+    margin-right: -12px;
+}
+/* .userroles{
+    display:flex;
+}
+.userroles span{
+    margin-top:3%;
+    margin-left:1.5%;
+    width:75%;
+    font-size:14px;
+}
+.userroles img{
+    width:20px; 
+    height:20px;
+    margin-top:6px;
+    margin-left:3px;
+    margin-right:2%;
+    justify-content:flex-end;
+}
+.bottom-menu{
+    margin-left:1%;
+    position:relative;
+    top:50%;
+}
+.bottom-install{
+    background-color: rgb(248, 237, 240);
+    padding:5%;
+    border-radius:5%;
+    margin-top:14%;
+    font-size:13px;
+}
+.bottom-install span{
+    color:red;
+}
+.bottom-install p{
+    color:rgb(188, 186, 186);
+}
+.dismiss{
+    padding:5%;
+    border:none;
+    border-radius:10%;
+    color:red;
+    background-color:rgb(248, 199, 208);
+}
+.accept{
+    padding:5%;
+    border:none;
+    border-radius:10%;
+    color:white;
+    background-color:red;
+}
+.right-container{
+    width:82%;
+}
+.search-wrapper{
+    display:flex;
+    width:55%;
+    padding-top:1%;
+    color:lightgray;
+    font-size:12px;
+}
+.search-bar{
+    width:99%;
+    padding:0.5%;
+    background-color:white;
+    display:flex;
+    border:none;
+    border-radius:2%;
+    box-shadow: 0.1px 0.1px 0px 1px rgb(236, 234, 234);
+}
+.search-bar img{
+    width: 7%;
+    height:80%;
+    margin-top:1%;
+}
+.search-bar input{
+    border:none;
+    background-color:white;
+}
+.search-bar input::placeholder{
+    color:lightgray;
+}
+#search-icon{
+    margin-left:3%;
+    width:4%;
+    height:60%;
+}
+.profile-icons{
+    width:45%;
+    display:flex;
+    padding-right:-200px;
+    position:relative;
+    left:7rem;
+}
+.profile-icons img{
+    width:8%;
+}
+#profile{
+    margin-top:2%;
+    margin-right:2%;
+    width:30px; 
+    height:30px;
+    padding-left:2%;
+}
+.adminname{
+    text-align: justify;
+}
+.adminname pre{
+    margin:0%;
+}
+.adminname small{
+    padding-top:none;
+}
+#downarrow{
+    width:30px;
+    height:30px;
+} */
+.content-title{
+    display:flex;
+    font-size:12px;
+}
+.content-title img{
+    width:2.5%; 
+    height:2.5%; 
+    margin-top:18px;
+}
+.content-wrapper{
+    width: 100%;
+    display:flex;
+    margin-top:1%;
+}
+.left-content{
+    width:70%;
+}
+.left-content h4{
+    color:gray;
+    margin-bottom:1%;
+}
+h4 img{
+    width:20px;
+    height:20px;
+}
+.left-content small{
+    color:lightgray;
+    font-size:11px;
+}
+.right-content{
+    width:30%;
+    display:flex;
+    justify-content: flex-end;
+}
+.right-content button{
+    width:50%;
+}
+.add-employee{
+    width:50%;
+    height:50%;
+    background-color: rgb(244, 86, 86);
+    border:1px solid rgb(247, 137, 137);
+    color:white;
+    border-radius:4px;
+    font-size:11px;
+    margin-top:8%;
+}
+.add-employee img{
+    width:17px;
+    height:15px;
+    margin-right:5px;
+    padding-top:2%;
+}
+.add-employee span{
+    padding-bottom:1%;
+    color:rgb(254, 253, 253);  
+    position:relative;
+    top:-2px;  
+}
+.role-description h5{
+    margin-bottom:0px;
+}
+.role-description small{
+    color:lightgray;
+    font-size:11px;
+}
+.employee-details{
+    display:flex;
+    width:100%;
+}
+.top-row{
+    display:flex;
+    width:100%;
+    gap:2%;
+}
+.individual-employee{
+    margin-top:3%;
+    width:33%;
+    padding-top:3%;
+    padding-left:2%;
+    padding-bottom:2%;
+    padding-right:2%;
+    font-size:12px;
+    box-shadow:0.1px 0.1px 0 1px rgb(227, 227, 227);
+    border-radius:3%;
+    color:gray;
+}
+.individual-employee span{
+    margin-left:80%;
+}
+.view{
+    display:flex;
+    gap:0.5%;
+}
+.view img{
+    width:20px;
+    margin-left:2px;
+}
+.role-details{
+    width: 100%;
+    display: flex;
+}
+.details-card{
+    width:33%;
+    display: block;
+    margin: 1.5rem -0.4rem -0.4rem 0.3rem;
+    border: 1px solid rgb(235, 234, 234);
+    border-radius:8px;
+    background-color: white;
+    color:rgb(43, 42, 42);
+    font-size:11px;
+}
+.line{
+    display: flex;
+    align-items: center;
+    padding:0.4rem 1rem 0.1rem;
+}
+#line{
+    margin-top: 1rem;
+}
+.icon{
+    margin-left:0.5rem;
+}
+.icon img{
+    width: 1rem;
+    height: 1rem;
+    margin-top:2%;
+}
+/* .icon span{
+    padding-top:2rem;
+} */
+.right-text{
+    text-align: right;
+    padding:0rem 0.7rem 0rem 0.5rem;
+}
+.right-text img{
+    margin-top:0.2rem;
+}
+.edit-symbol{
+    width:1.5rem;
+    height:1.5rem;
+}
+.many-users{
+    text-align:right;
+}
+
+
+
+@media screen and (max-width:760px){
+    .main-dashboard{
+        width:100%;
+    }
+    .tezo-logo{
+        width:50%;
+    }
+    .handle{
+        width:5%;
+    }
+    .left-container{
+        width:100%;
+        flex-direction:column;
+    }
+    .left-menu-all{
+        margin-top:5%;
+    }
+    .list-in-all{
+        margin-top:0%;
+    }
+    .left-menu-roles{
+        margin-top:5%;
+    }
+    .list-in-roles{
+        margin-top:0%;
+    }
+    .add-employee {
+        width:70%;
+    }
+    .userroles p{
+        margin-right:10%;
+    }
+    /* .profile-icons{
+        width:8%;
+        height:70%;
+    } */
+    /* #search-icon{
+        width: 4%;
+        height:40%;
+        margin-top:2%;
+    }
+    .profile-icons{
+        width:60%;
+    } */
+    .dismiss, .accept{
+        margin-top:5%;
+    }
+    .roles img {
+        padding-top:0.7%;
+    }
+}
+
+@media screen and (min-width:1024px)
+{
+    /* .profile-icons{
+        margin-left:-2rem;
+        width:8%;
+        height:70%;
+    }
+    #search-icon{
+        width: 4%;
+        height:40%;
+        margin-top:0.6%;
+    } */
+    .add-employee{
+        width:70%;
+    }
+}
+@media screen and (max-width:980px)
+{
+    /* .profile-icons{
+        margin-left:-5rem;
+        width:8%;
+        height:70%;
+    }
+    #search-icon{
+        width: 4%;
+        height:40%;
+        margin-top:2%;
+    } */
+    .add-employee{
+        width:80%;
+    }
+    
+}
+@media screen and (max-width:768px)
+{
+    /* .profile-icons{
+        justify-content: flex-end;
+        margin-left: -8rem;
+        width:8%;
+        height:70%;
+    }
+    #search-icon{
+        width: 4%;
+        height:40%;
+        margin-top:1%;
+    } */
+    .right-content button{
+        padding-bottom:10%;
+    }
+}
+@media screen and (max-width:700px)
+{
+    /* .profile-icons{
+        justify-content: flex-end;
+        margin-left: -8rem;
+        width:8%;
+        height:70%;
+    }
+    #search-icon{
+        width: 4%;
+        height:40%;
+        margin-top:2%;
+    } */
+}
+@media screen and (max-width:428px)
+{
+    .top-row{
+        display:flex;
+        flex-direction:column;
+    }
+    .details-card{
+        width:80%;
+        justify-items: center;
+    }
+    .add-employee span{
+        font-size:8px;
+    }
+    .add-employee{
+        width:100%;
+    }
+    .right-content button{
+        padding-bottom:25%;
+    }
+    
+}
+@media screen and (max-width: 700px) and (min-width: 427px){
+    .top-row{
+        display:flex;
+        flex-direction:column;
+    }
+    .details-card{
+        width:70%;
+        justify-items: center;
+    }
+    .right-content button{
+        padding-bottom:15%;
+    }
+}
+@media screen and (max-width: 700px) and (min-width: 427px){
+    .userroles {
+        width:94%;
+    }
+}
+@media screen and (max-width:1050px)
+{
+    .right-content button{
+        width:70%;
+    }
+}

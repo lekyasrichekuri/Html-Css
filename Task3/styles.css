@@ -1,0 +1,347 @@
+body{
+    overflow-x:hidden;
+    margin:1rem;
+    font-family:"poppins";
+}
+.main-dashboard{
+    width:100%;
+    display:flex;
+    gap:1.5%;
+}
+.left-container{
+    width:18%;
+}
+#left-container2{
+    width:4%;
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+    display:none;
+}
+.left-container2 img{
+    justify-content:center;
+    margin-bottom:20%;
+}
+.left-menu{
+    display:flex;
+}
+.tezo-logo{
+    margin:5% 0 0 5%;
+    width:90%;
+}
+.left-menu-all{
+    margin-top:16%;
+    margin-left:6%;
+    font-size:11px;
+    color:rgb(210, 210, 210);
+}
+.list-in-all{
+    margin-top:6%;
+    color:gray;
+    font-weight: 550;
+}
+.dashboard{
+    display:flex;
+    padding:2% 0% 1% 0%;
+    border-radius:3px;
+    margin-top:2%;
+}
+.dashboard span{
+    margin-top:0.2%;
+    margin-left:1.5%;
+    margin-right:45%;
+    font-size:12px;
+}
+.dashboard img{
+    width:15px; 
+    height:15px;
+    justify-content:flex-end;
+    margin-top:2px;
+    margin-right:2%;
+}
+.left-menu-roles{
+    margin-top:10%;
+    margin-left :6%;
+    font-size:11px;
+    color:rgb(210, 210, 210);
+}
+.list-in-roles{
+    margin-top:5%;
+    margin-left:6%;
+    color:gray;
+    font-weight:550;
+}
+.list-in-roles div{
+    margin-bottom:2%;
+}
+.userroles{
+    display:flex;
+    padding:0% 0% 1% 0%;
+    border-radius:3px;
+}
+.userroles span{
+    margin-left:1.5%;
+    font-size:12px;
+    width:75%;
+}
+.userroles img{
+    width:15px; 
+    height:15px;
+    margin-top:2px;
+    margin-right:2%;
+    justify-content:flex-end;
+}
+.bottom-install{
+    background-color: rgb(248, 237, 240);
+    padding:5%;
+    border-radius:0.8rem;
+    margin-top:55%;
+    font-size:13px;
+    margin-left:1%;
+}
+.bottom-install span{
+    color:red;
+}
+.bottom-install p{
+    color:rgb(188, 186, 186);
+    font-size:12px;
+}
+.dismiss{
+    padding:5%;
+    border:none;
+    border-radius:10%;
+    color:red;
+    background-color:rgb(248, 199, 208);
+}
+.accept{
+    padding:5%;
+    border:none;
+    border-radius:10%;
+    color:white;
+    background-color:red;
+}
+.right-container{
+    width:82%;
+    position:relative;
+}
+.search-wrapper{
+    display:flex;
+    color:lightgray;
+}
+.search-bar{
+    width:100%;
+    background-color:white;
+    display:flex;
+    border:none;
+    border-radius:3px;
+    box-shadow: 0.1px 0.1px 0px 1px rgb(236, 234, 234);
+    align-items:center;
+    height:45px;
+    flex-direction:row;
+    gap:50%;
+}
+.handle{
+    margin-top:1.3%;
+    position:absolute;
+    left:-1.8rem;
+    width:17%;
+    cursor:pointer;
+}
+.handle img{
+    width: 14%;
+}
+.search-bar input{
+    border:none;
+    background-color:white;
+}
+.search-bar input::placeholder{
+    color:lightgray;
+}
+input:focus{
+    outline:none;
+}
+#search-icon{
+    margin-left:5%;
+    width:7%;
+    height:70%;
+    align-self: center;
+}
+.profile-icons{
+    display:flex;
+    align-self:center;
+}
+.profile-icons img{
+    width:10%;
+    height:70%;
+    margin:2px;
+    align-self: center;
+}
+#profile{
+    margin-right:2%;
+    width:30px; 
+    height:30px;
+    padding-left:2%;
+}
+.adminname{
+    text-align:justify;
+    flex-wrap:wrap;
+}
+.adminname span{
+    font-size:8px;
+}
+#downarrow{
+    width:20px;
+    height:20px;
+}
+
+
+
+
+@media screen and (max-width:428px){
+    .main-dashboard{
+        width: 100%;
+        display: flex;
+        gap: 3rem;
+        flex-direction: column;
+    }
+    .left-container{
+        width:100%;
+    }
+    .right-container{
+        width:100%;
+    }
+    .search-bar{
+        display:flex;
+        flex-direction:column;
+        height:auto;
+    }
+    .search-wrapper{
+        width: 100%;
+    }
+    .dashboard{
+        margin-left:6%;
+    }
+    .employee{
+        margin-left:2%;
+    }
+    #search-icon{
+        width:4%;
+        height:40%;
+    }
+    .bottom-install{
+        margin-top:8%;
+    }
+}
+
+@media screen and (max-width:486px){
+    .search-bar{
+        display:flex;
+        flex-direction:column;
+        height:auto;
+    }
+    .search-wrapper{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 700px) and (min-width: 427px){
+    .main-dashboard{
+        width: 100%;
+        display:flex;
+        flex-direction:column;
+        gap:3rem;
+    }
+    .left-container{
+        width:100%;
+    }
+    .right-container{
+        width:100%;
+    }
+    .dismiss, .accept{
+        height:5%;
+    }
+    .dashboard{
+        margin-left:6%;
+    }
+    .employee{
+        margin-left:2%;
+    }
+    .roles img{
+        margin-top:1%;
+    }
+    .roles span{
+        margin-top:1%;
+    }
+    .search-bar{
+        gap:0%;
+    }
+    .left-menu-all, .list-in-all span, .left-menu-roles, .list-in-roles span{
+        font-size:16px;
+    }
+    .tezo-logo{
+        width:50%;
+        height:80%;
+    }
+    .handle{
+        width: 4%;
+        height:6%;
+    }
+    .dismiss, .accept{
+        padding:10px;
+    }
+    .left-menu-all{
+        margin-top:6%;
+    }
+    .list-in-all{
+        margin-top:3%;
+    }
+    .list-in-all div{
+        margin-bottom:1%;
+    }
+    .left-menu-roles{
+        margin-top:6%;
+    }
+    .list-in-roles{
+        margin-top:3%;
+    }
+    .left-menu-roles div{
+        margin-bottom:1%;
+    }
+    .bottom-install{
+        margin-top:8%;
+    }
+    #left-container2{
+        width:100%;
+        flex-direction:row;
+    }
+    #left-container2{
+        display:none;
+    }
+}
+
+@media screen and (max-width:900px)
+{
+    .search-bar{
+        gap:20%;
+    }
+}
+
+@media screen and (max-width:1042px)
+{
+    .add-employee{
+        margin-bottom:4%;
+    }
+}
+
+@media screen and (max-width:1440px)
+{
+    .add-employee{
+        margin-bottom:4%;
+    }
+}
+
+@media screen and (min-width:1200px){
+    .add-employee {
+        margin-bottom:6%;
+    }
+}

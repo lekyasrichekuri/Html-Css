@@ -1,0 +1,424 @@
+.list-in-all div{
+    margin-bottom:5%;
+}
+.dashboard{
+    display:flex;
+    margin-left:6%;
+}
+.roles{
+    display:flex;
+    padding:1% 0% 0% 0%;
+    border-radius:3px;
+    margin-top:2%;
+}
+.roles span{
+    margin-top:0.2%;
+    margin-left:1.5%;
+    font-size:12px;
+    width:75%;
+}
+.roles a{
+    text-decoration:none;
+    color:gray;
+}
+.roles img{
+    width:15px; 
+    height:15px;
+    margin-top:2px;
+    margin-right:2%;
+    justify-content:flex-end;
+}
+.employee{
+    display:flex;
+    background-color: rgb(246, 217, 224);
+    padding:2% 0% 2% 0%;
+    border-radius:3px;
+    padding-left:4%;
+    margin-left:2%;
+    width:90%;
+}
+.employees{
+    display:flex;
+    gap:2%;
+}
+.employee span{
+    margin-top:0.2%;
+    margin-left:1.5%;
+    margin-right:45%;
+    color:red;
+    font-size:12px;
+}
+.employee img{
+    width:15px;
+    height:15px;
+    margin-top:3px;
+    margin-right:2%;
+}
+.employee a{
+    text-decoration:none;
+    color:red;
+}
+#userroles {
+    padding-top:3%;
+}
+.content-wrapper{
+    width: 100%;
+    display: flex;
+    margin-top: 4px;
+}
+.left-content{
+    width:70%;
+}
+.left-content h5{
+    color:gray;
+    margin-bottom:1%;
+}
+.left-content small{
+    color:rgb(125, 123, 123);
+    font-size:11px;
+}
+.right-content{
+    width:30%;
+    margin-top:4%;
+    display:flex;
+    justify-content: flex-end;
+}
+.export{
+    width:35%;
+    height:80%;
+    background-color: white;
+    color: rgb(186 183 183);
+    border-radius: 3px;
+    margin-right: 18px;
+    border: 1px solid rgb(152 147 147);
+    font-size: 11px;
+    position: relative;
+    bottom: 13px;
+    padding-bottom: 5px;
+}
+.export img{
+    width:15px;
+    height:16px;
+    margin-right:5px;
+    padding-top: 4%;
+}
+.export span{
+    color:gray;
+    position: relative;
+    top: -2px;
+}
+.add-employee{
+    width:50%;
+    height:80%;
+    background-color: rgb(244, 86, 86);
+    border:1px solid rgb(247, 137, 137);
+    color:white;
+    border-radius:3px;
+    font-size:11px;
+    position: relative;
+    bottom: 13px;
+    padding-bottom:5px;
+}
+.add-employee img{
+    width:17px;
+    height:15px;
+    margin-right:5px;
+    padding-top: 5%;
+}
+.add-employee span{
+    position: relative;
+    top: -3px;
+}
+
+.add-employee a{
+    text-decoration:none;
+    color:white;
+}
+
+.index{
+    display:flex;
+    gap:0.8%;
+    margin-top:3px;
+    margin-bottom:2px;
+}
+.vector{
+    margin-top:2%;
+}
+.index-count{
+    gap:2%;
+}
+.index-count button{
+    border:none;
+    background-color: rgb(237, 234, 234);
+    color:rgb(151, 151, 151);
+    padding: 10px 9.6px;
+    border-radius:3px;
+    margin:1% 0%;
+    cursor:pointer;
+}
+#button-c{
+    background-color: red;
+    color:white;
+}
+/* .index-count button:hover{
+    background-color:red;
+    color:white;
+} */
+.vectors{
+    margin-top:1.5%;
+    width:2%;
+    height:40%;
+}
+.Filter{
+    background-color: rgb(250, 240, 243);
+    margin-top:auto;
+    display:flex;
+    width:98%;
+    padding:1%;
+    box-shadow: 0.1px 0.1px 0px 1px rgb(253, 208, 208);
+    border-radius:3px;
+}
+select:focus{
+    outline:none;
+}
+.left-filter{
+    width:80%;
+    display:flex;
+    gap:1%;
+}
+.left-filter span{
+    color:red;
+    margin-top:1%;
+    font-size:12px;
+}
+.left-filter select{
+    background-color: white;
+    color:rgb(84, 84, 84);
+    border-color:rgb(252, 95, 95);
+    border-radius:5%;
+    padding: 0px 3px;
+    margin-top:2px;
+    font-size:11px;
+    border-radius: 5px;
+}
+.right-filter{
+    width:20%;
+    display:flex;
+    gap:5%;
+}
+.right-filter div{
+    border-color:red;
+}
+.reset{
+    background-color:white;
+    color:red;
+    border:1px solid red;
+    padding:5% 10%;
+    border-radius:5px;
+    font-size:11px;
+}
+.apply{
+    background-color:red;
+    color:white;
+    padding:5% 10%;
+    border-radius:5px;
+    border:none;
+    font-size:11px;
+}
+.main-employees-data{
+    margin-top:3%;
+    box-shadow:1px 1px 1px 1px lightgray;
+    border-radius:10px;
+}
+.table{
+    margin-left:85%;
+}
+table{
+    border-collapse:collapse;
+    border:1px solid rgb(218, 218, 218);
+}
+.topline hr{
+    height: 1px;
+    border: 0;
+    background: rgb(250, 217, 217);
+}
+#main-table{
+    margin-top:2%;
+    margin-bottom:3%;
+}
+td{
+    padding:0%;
+    font-size:11px;
+    font-weight:bold;
+}
+th{
+    text-align:left;
+    color:rgb(11, 11, 11);
+    font-weight:bold;
+    font-size:10px;
+}
+th img{
+    width:8px;
+    height:7px;
+}
+.active{
+    border:none;
+    background-color:rgb(223, 248, 223);
+    color:rgb(6, 215, 6);
+    border-radius:10%;
+    padding:4px 8px;
+}
+table tr{
+    font-size:10px;
+    color:rgb(86, 86, 86);
+}
+#buttonid{
+    padding:1% 1.5%;
+    border-radius:10%;
+    background-color:rgb(252, 201, 201);
+    color:white;
+    margin-bottom:1%;
+    margin-top:1%;
+    border:none;
+}
+td a{
+    text-decoration:none;
+}
+#table-headings{
+    background-color: rgb(252, 248, 248);;
+}
+.table-space{
+    padding-left:1%;
+}
+.table-space img{
+    width:20px;
+    height:20px;
+}
+#row-color{
+    background-color:rgb(253, 244, 253);
+}
+table tr,th{
+    margin:2% 0;
+    border-bottom:1px solid rgb(205, 203, 203);
+}
+table tr:hover{
+    background-color:rgb(253, 244, 253);
+}
+th,td{
+    padding:5px;
+}
+table tr:last-child{
+    border-bottom:none;
+}
+.extra{
+    font-size: 22px;
+}
+.highlight{
+    background-color:red;
+}
+
+
+
+
+
+
+
+@media screen and (max-width:760px){
+    .main-dashboard{
+        width:100%;
+        gap:0%;
+    }
+    .tezo-logo{
+        width:50%;
+    }
+    .handle{
+        width:5%;
+    }
+    .left-container{
+        width:40%;
+        flex-direction:column;
+    }
+    .right-container{
+        width:60%;
+    }
+    .left-menu-all{
+        margin-top:5%;
+    }
+    .list-in-all{
+        margin-top:0%;
+    }
+    .left-menu-roles{
+        margin-top:5%;
+    }
+    .list-in-roles{
+        margin-top:0%;
+    }
+    .left-menu-all, .list-in-all, .left-menu-roles, .list-in-roles{
+        margin-left:20%;
+    }
+    table{
+        margin-right:0%;
+    }
+    .Filter{
+        display:flex;
+        flex-direction: column;
+    }
+    .right-filter{
+        margin-top: 2%;
+    }
+    .export{
+        margin-top:5%;
+        width:70%;
+    }
+    .add-employee{
+        width:70%;
+    }
+    #button{
+        width:10%;
+    }
+    .top-menu, .list-in-all, .list-in-roles, .dashboard, .employee, .roles, .userroles{
+        margin-left:0%;
+    }
+    .right-content{
+        display:flex;
+        flex-direction:column;
+        gap:10%;
+    }
+    .search-wrapper{
+        width:40%;
+    }
+    .dismiss, .accept{
+        margin-top:5%;
+    }
+    .roles img {
+        padding-top:0.7%;
+    }
+}
+
+@media screen and (max-width:768px)
+{
+    .dismiss, .accept{
+        margin-top:5%;
+    }
+}
+@media screen and (max-width:426px){
+    .main-dashboard{
+        width: 100%;
+        display: flex;
+        gap: 3rem;
+        flex-direction: column;
+    }
+    .left-container{
+        width:100%;
+    }
+    .top-menu{
+        width:100%;
+        margin-right:20px;
+    }
+    .bottom-menu{
+        width:80%;
+    }
+    .add-employee,.export{
+        width:100%;
+    }
+}

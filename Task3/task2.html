@@ -66,7 +66,7 @@
             </div>
             <div class="right-container" id="right-container">
                 <div class="handle">
-                    <img src="assets/images/handle.png" alt="handle" id="handle">
+                    <img src="assets/images/handle.png" alt="handle" onclick="SideBar()"  id="handle">
                 </div>
                 <div class="search-bar">
                     <div class="search-wrapper">
@@ -96,7 +96,7 @@
                             <img src="assets/images/Masked Icon.png" alt="export" ><span>EXPORT</span>
                         </button>
                         <button class="add-employee"> 
-                            <img src="assets/interface/Add.svg" alt="plus"><span>ADD EMPLOYEE</span>
+                            <img src="assets/interface/Add.svg" alt="plus"><span><a href="Task3-add-employee.html">ADD EMPLOYEE</a></span>
                         </button>
                     </div>
                 </div>
@@ -183,7 +183,7 @@
                             <th class="table-space" style="width:5%;">
                                 <input type="checkbox">
                             </th>
-                            <th colspan="2">USER <img src="assets/images/arrow3.png" alt="arrow" ></th>
+                            <th>USER <img src="assets/images/arrow3.png" alt="arrow" ></th>
                             <th>LOCATION<img src="assets/images/arrow3.png" alt="arrow" ></th>
                             <th>DEPARTMENT <img src="assets/images/arrow3.png" alt="arrow" ></th>
                             <th>ROLE <img src="assets/images/arrow3.png" alt="arrow" ></th>
@@ -195,7 +195,7 @@
                         <tbody id="table-body" >
 
                         </tbody>
-                        <tr>
+                        <!-- <tr>
                             <td class="table-space">
                                 <input type="checkbox">
                             </td>
@@ -354,10 +354,12 @@
                             <td><button>Active</button></td>
                             <td>12/03/2023</td>
                             <td class="extra">...</td>
-                        </tr>
+                        </tr> -->
                     </table>
                 </div>
             </div>
         </section>
+        <script src="task2-common.js"></script>
+        <script src="task2.js"></script>
     </body>
 </html>
